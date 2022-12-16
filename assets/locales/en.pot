@@ -1,0 +1,1891 @@
+#. extracted from en.json
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-16 12:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.8.0\n"
+
+#: .ui.loading
+msgid "Loading…"
+msgstr ""
+
+#: .enrollment.welcome.header
+msgid "Temporary start-up screen"
+msgstr ""
+
+#: .enrollment.welcome.abstract
+msgid "This screen needs to be cleaned-up."
+msgstr ""
+
+#: .enrollment.welcome.intro_button
+msgid "Introduction screen"
+msgstr ""
+
+#: .enrollment.welcome.choose_pin_button
+msgid "Choose PIN"
+msgstr ""
+
+#: .enrollment.welcome.not_now
+msgid "Not now"
+msgstr ""
+
+#: .enrollment.introduction.button_text
+msgid "Choose a PIN"
+msgstr ""
+
+#: .enrollment.introduction.screen1.title
+msgid "IRMA is your identity on your mobile"
+msgstr ""
+
+#: .enrollment.introduction.screen1.text
+msgid ""
+"Your official name, date of birth, address, and more. All securely stored in "
+"your IRMA app."
+msgstr ""
+
+#: .enrollment.introduction.screen2.title
+msgid "Make yourself known with IRMA"
+msgstr ""
+
+#: .enrollment.introduction.screen2.text
+msgid "Easy, secure, and fast. It's all in your hands."
+msgstr ""
+
+#: .enrollment.introduction.screen3.title
+msgid "IRMA provides certainty, to you and to others"
+msgstr ""
+
+#: .enrollment.introduction.screen3.text
+msgid "Your data are stored solely within the IRMA app. Only you have access."
+msgstr ""
+
+#: .enrollment.introduction.screen3.privacy.text
+msgid "Please read the privacy rules"
+msgstr ""
+
+#: .enrollment.introduction.screen3.privacy.url
+msgid "https://privacybydesign.foundation/privacy-policy-en/"
+msgstr ""
+
+#: .enrollment.choose_pin.title
+msgctxt ".enrollment.choose_pin.title"
+".enrollment.choose_pin.title"
+msgid "Secure your IRMA app"
+msgstr ""
+
+#: .enrollment.choose_pin.insert_pin
+msgctxt ".enrollment.choose_pin.insert_pin"
+msgid "Choose a 5-digit PIN"
+msgstr ""
+
+#: .enrollment.choose_pin.textfield
+msgid "PIN"
+msgstr ""
+
+#: .enrollment.choose_pin.confirm_title
+msgid "Repeat your PIN"
+msgstr ""
+
+#: .enrollment.choose_pin.instruction
+msgctxt ".enrollment.choose_pin.instruction"
+msgid "Choose a 5-digit PIN"
+msgstr ""
+
+#: .enrollment.choose_pin.confirm_instruction
+msgid "Enter your PIN again"
+msgstr ""
+
+#: .enrollment.choose_pin.next
+msgctxt ".enrollment.choose_pin.next"
+".enrollment.choose_pin.next"
+msgid "Next"
+msgstr ""
+
+#: .enrollment.choose_pin.error_title
+msgctxt ".enrollment.choose_pin.error_title"
+".enrollment.choose_pin.error_title"
+".enrollment.choose_pin.error_title"
+msgid "PIN incorrect"
+msgstr ""
+
+#: .enrollment.choose_pin.error
+msgid "PINs do not match. Choose a new PIN."
+msgstr ""
+
+#: .enrollment.choose_pin.error_action
+msgctxt ".enrollment.choose_pin.error_action"
+".enrollment.choose_pin.error_action"
+".enrollment.choose_pin.error_action"
+".enrollment.choose_pin.error_action"
+".enrollment.choose_pin.error_action"
+".enrollment.choose_pin.error_action"
+".enrollment.choose_pin.error_action"
+msgid "OK"
+msgstr ""
+
+#: .enrollment.provide_email.title
+msgctxt ".enrollment.provide_email.title"
+msgid "Secure your IRMA app"
+msgstr ""
+
+#: .enrollment.provide_email.instruction
+msgid ""
+"An email address allows you to disable your IRMA app when your mobile has "
+"been lost or stolen."
+msgstr ""
+
+#: .enrollment.provide_email.textfield
+msgid "Email address"
+msgstr ""
+
+#: .enrollment.provide_email.skip
+msgid "Skip"
+msgstr ""
+
+#: .enrollment.provide_email.next
+msgctxt ".enrollment.provide_email.next"
+msgid "Next"
+msgstr ""
+
+#: .enrollment.provide_email.error
+msgid "This is not a valid email address"
+msgstr ""
+
+#: .enrollment.provide_email.skip_title
+msgctxt ".enrollment.provide_email.skip_title"
+".enrollment.provide_email.skip_title"
+msgid "Are you sure?"
+msgstr ""
+
+#: .enrollment.provide_email.skip_content
+msgid ""
+"Protect your data. When you enter an email address, you can block your IRMA "
+"app when your mobile has been lost or stolen."
+msgstr ""
+
+#: .enrollment.provide_email.insert_email
+msgid "Enter an email address"
+msgstr ""
+
+#: .enrollment.email_sent.title
+msgctxt ".enrollment.email_sent.title"
+msgid "Secure your IRMA app"
+msgstr ""
+
+#: .enrollment.email_sent.button
+msgctxt ".enrollment.email_sent.button"
+".enrollment.email_sent.button"
+msgid "Continue"
+msgstr ""
+
+#: .enrollment.email_sent.message_title
+msgid "Confirm your email address"
+msgstr ""
+
+#: .enrollment.email_sent.message_markdown
+msgid ""
+"You have received an email from **noreply@sidn.nl**. Open the link in this "
+"message to link your email address to your IRMA app."
+msgstr ""
+
+#: .enrollment.email_sent.mail_sent_text_markdown
+msgid "The email has been sent to: **{emailaddress}**."
+msgstr ""
+
+#: .enrollment.email_sent.check_spam
+msgid ""
+"It can take a moment until the email arrives. Check your spam folder if you "
+"don't see the mail in your inbox."
+msgstr ""
+
+#: .enrollment.submit.title
+msgid "Logging in"
+msgstr ""
+
+#: .enrollment.submit.progress_enrollment
+msgid "You're being logged in"
+msgstr ""
+
+#: .about.title
+msgctxt ".about.title"
+msgid "About IRMA"
+msgstr ""
+
+#: .about.header
+msgctxt ".about.header"
+msgid "Make yourself known"
+msgstr ""
+
+#: .about.slogan
+msgid "With IRMA it's all in your hands."
+msgstr ""
+
+#: .about.who_is_behind_irma_item
+msgid "Who is behind the IRMA app?"
+msgstr ""
+
+#: .about.who_is_behind_irma_explanation_markdown
+msgid ""
+"IRMA is produced by the **Privacy by Design** foundation. In 2016 this "
+"foundation grew out of the Digital Security research group at Radboud "
+"University Nijmegen. This foundation is independent and non-profit.\n"
+"\n"
+"The IRMA app is open source and is developed jointly with SIDN, the manager "
+"of the .nl-domain. This development is done jointly with local government "
+"and health care. Some 30 municipalities are involved, including Nijmegen, "
+"Amsterdam and Leiden. IRMA is recipient of the Dutch Privacy Awards 2018."
+msgstr ""
+
+#: .about.check_out
+msgid "See also: "
+msgstr ""
+
+#: .about.award
+msgid "Dutch Privacy Awards"
+msgstr ""
+
+#: .about.award_link
+msgid "https://privacyawards.nl/2018-2/"
+msgstr ""
+
+#: .about.why_irma_item
+msgid "Why does IRMA exist?"
+msgstr ""
+
+#: .about.why_irma_explanation_markdown
+msgid ""
+"**IRMA exists because you have the right to an online identity that you "
+"really own.** IRMA is not a commercial app that is used to track you, to "
+"profile you and to sell your personal data to third parties.\n"
+"\n"
+"IRMA is in the spirit of the [General Data Protection Regulation "
+"(GDPR)](https://gdpr-info.eu/). Via the IRMA app you disclose only these "
+"data about yourself that are relevant and necessary in a particular "
+"situation.\n"
+"\n"
+"**With the IRMA app your identity is in your own hands, within the secured "
+"IRMA app on your own phone.** The IRMA app is a powerful means for making "
+"yourself known (online) and for digital signing. With respect for your "
+"privacy."
+msgstr ""
+
+#: .about.privacy_item
+msgid "IRMA, privacy and security"
+msgstr ""
+
+#: .about.privacy_explanation_markdown
+msgid ""
+"The IRMA app has been developed in such a way that you and only you can see "
+"and use your personal data. Your personal data are stored only on your phone "
+"and not in the cloud.\n"
+"\n"
+"The IRMA app is designed so that a website or shop where you make yourself "
+"known can (cryptographically) check that the data that you disclose are "
+"genuine.\n"
+"\n"
+"The IRMA app discloses your data directly from your phone to the website. No-"
+"one else can see that you identify yourself there. Even the organisation "
+"behind IRMA cannot observe such disclosures. \n"
+"\n"
+"When using IRMA, you agree with the privacy policy [link]."
+msgstr ""
+
+#: .about.responsibility_item
+msgid "Own responsibility"
+msgstr ""
+
+#: .about.responsibility_explanation
+msgid ""
+"A website that offers an IRMA long asks data that are needed for this login. "
+"Within the IRMA app you decide whether you agree (or not) with the requested "
+"disclosure.\n"
+"Does the website ask too much data? Then it is wise not to agree. You can "
+"consider filing a complaint. You can do so at the website itself or at the ["
+"Data Protection Authorities](https://autoriteitpersoonsgegevens.nl/nl/"
+"zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap).\n"
+"\n"
+"With the IRMA app you can also put a digital signatures. Such a signature "
+"can have (legal) consequences. Hence, putting a digital signature with the "
+"IRMA app requires care.\n"
+"\n"
+"If you put a digital signature with the IRMA app, you agree that the Privacy "
+"by Design foundation is in no way a party in any agreement that you enter "
+"into via an IRMA signature. The foundation is neither responsible nor liable."
+msgstr ""
+
+#: .about.learn_more
+msgid "Learn more"
+msgstr ""
+
+#: .about.more_information
+msgid "IRMA website"
+msgstr ""
+
+#: .about.irma_website_link
+msgid "https://irma.app/?lang=en"
+msgstr ""
+
+#: .about.source_code
+msgid "Source code"
+msgstr ""
+
+#: .about.source_code_link
+msgctxt ".about.source_code_link"
+msgid "https://github.com/privacybydesign"
+msgstr ""
+
+#: .about.contact
+msgid "Contact"
+msgstr ""
+
+#: .about.contact_subject
+msgid "IRMA app"
+msgstr ""
+
+#: .about.privacy_policy
+msgid "IRMA's privacy rules"
+msgstr ""
+
+#: .about.privacy_policy_link
+msgid "https://privacybydesign.foundation/privacy-policy-en"
+msgstr ""
+
+#: .about.demo
+msgid "Frequently asked questions & demos"
+msgstr ""
+
+#: .about.demo_link
+msgid "in app link"
+msgstr ""
+
+#: .about.get_involved
+msgid "Stay informed and get involved"
+msgstr ""
+
+#: .about.meetups
+msgid "IRMA meetups"
+msgstr ""
+
+#: .about.meetups_link
+msgid "https://privacybydesign.foundation/meetings/"
+msgstr ""
+
+#: .about.twitter
+msgid "@irma_privacy"
+msgstr ""
+
+#: .about.twitter_link
+msgid "https://twitter.com/irma_privacy"
+msgstr ""
+
+#: .about.github
+msgid "GitHub"
+msgstr ""
+
+#: .about.github_link
+msgctxt ".about.github_link"
+msgid "https://github.com/privacybydesign"
+msgstr ""
+
+#: .about.share_slogan
+msgid "Share IRMA with others"
+msgstr ""
+
+#: .about.share_text
+msgid "Check out the IRMA app: https://irma.app"
+msgstr ""
+
+#: .about.share
+msgid "Share IRMA"
+msgstr ""
+
+#: .about.version
+msgid "Version {version}"
+msgstr ""
+
+#: .about.copyright
+msgid ""
+"Copyright Privacy by Design Foundation, 2020, released under GPL License 3.0"
+msgstr ""
+
+#: .about.pbdf
+msgid "Privacy by Design"
+msgstr ""
+
+#: .about.pbdf_link
+msgid "https://privacybydesign.foundation/en/"
+msgstr ""
+
+#: .about.developer_mode_enabled
+msgid "Developer mode enabled"
+msgstr ""
+
+#: .manual.faq
+msgid "Manual"
+msgstr ""
+
+#: .manual.faq_info
+msgid "How to use IRMA? See the explanations below."
+msgstr ""
+
+#: .manual.question_1
+msgid "How to use IRMA for logging onto a mobile website?"
+msgstr ""
+
+#: .manual.answer_1.step_1
+msgid "Open the website on your mobile and select logging in with IRMA."
+msgstr ""
+
+#: .manual.answer_1.step_2
+msgid ""
+"The IRMA app starts automatically.\n"
+"Enter your PIN."
+msgstr ""
+
+#: .manual.answer_1.step_3
+msgid "Agree (or disagree) to disclose your personal data."
+msgstr ""
+
+#: .manual.answer_1.step_4
+msgctxt ".manual.answer_1.step_4"
+msgid ""
+"After disclosing you are logged in.\n"
+"You can now use the website."
+msgstr ""
+
+#: .manual.question_2
+msgid "How to use IRMA for logging onto a website on my computer?"
+msgstr ""
+
+#: .manual.answer_2.step_1
+msgid "Open the website on your computer and select logging in with IRMA."
+msgstr ""
+
+#: .manual.answer_2.step_2
+msgid "Open the IRMA app on your mobile and enter your PIN."
+msgstr ""
+
+#: .manual.answer_2.step_3
+msgid ""
+"Start the QR code scanner in the IRMA app. Scan the QR code on the screen of "
+"your computer."
+msgstr ""
+
+#: .manual.answer_2.step_4
+msgid "Agree (or not) to disclose your personal data."
+msgstr ""
+
+#: .manual.answer_2.step_5
+msgctxt ".manual.answer_2.step_5"
+msgid ""
+"After disclosing you are logged in.\n"
+"You can now use the website."
+msgstr ""
+
+#: .help.title
+msgctxt ".help.title"
+".help.title"
+msgid "Help"
+msgstr ""
+
+#: .help.faq
+msgid "Frequently asked questions"
+msgstr ""
+
+#: .help.faq_info
+msgid "Check if your question is listed here"
+msgstr ""
+
+#: .help.question_1
+msgid "What can I do with IRMA?"
+msgstr ""
+
+#: .help.answer_1_markdown
+msgid ""
+"With IRMA it's easy to log in and make yourself known. You disclose only the "
+"necessary attributes of yourself. For instance, in order to watch a certain "
+"movie, you disclose that you are over 16 years old and nothing else. With "
+"IRMA you can digitally sign documents too. You only use relevant "
+"characteristics of yourself, in some sort of digital stamp. In this way IRMA "
+"allows you to sign as medical doctor, as citizen, or in some other role.\n"
+"\n"
+"More and more websites support logging in with IRMA. For instance, doctors "
+"in The Netherlands can access medical dossiers via the website "
+"[helder](https://www.helder.health/). IRMA support is growing especially at "
+"municipalities and health care providers. To get an idea of the "
+"possibilities, you can try out yourself some of the available IRMA "
+"[demo's](https://privacybydesign.foundation/demo-en/)."
+msgstr ""
+
+#: .help.question_2
+msgid "What to do if I lose my mobile?"
+msgstr ""
+
+#: .help.answer_2_markdown
+msgid ""
+"If you lose your mobile, nobody can use your IRMA app, at least if you have "
+"chosen a non-trivial PIN.\n"
+"\n"
+"You can protect yourself even more: upon installing IRMA you have been given "
+"the choice to enter an email address. If you have done so, you can block "
+"your IRMA app altogether via [MyIRMA](https://privacybydesign.foundation/"
+"myirma/). The IRMA app on your old (lost) mobile is then completely unusable."
+"\n"
+"\n"
+"If you have not yet added an email address in "
+"[MyIRMA](https://privacybydesign.foundation/myirma/) you can still do so "
+"now. This is recommended.\n"
+"\n"
+"On your new mobile you can re-install the IRMA app and re-fill it with your "
+"data. Then you are good to go again."
+msgstr ""
+
+#: .help.question_3
+msgid "What makes IRMA privacy-friendly and secure?"
+msgstr ""
+
+#: .help.answer_3
+msgid ""
+"Your personal data are protected via your personal PIN. Your data are stored "
+"exclusively in the IRMA app and not in the cloud.\n"
+"\n"
+"The data in your IRMA app are digitally signed by the source (issuer) where "
+"the data come from (such as the local authorities).\n"
+"\n"
+"In this way a website or shop, where you make yourself known, can "
+"cryptographically verify that your data are genuine.\n"
+"This exchange of personal data happens directly between your mobile and the "
+"website. No one else can see that you make yourself known there, not even "
+"the organisation behind IRMA."
+msgstr ""
+
+#: .help.question_4
+msgid "Where are my IRMA data stored?"
+msgstr ""
+
+#: .help.answer_4
+msgid ""
+"Your data are stored in the IRMA app on your mobile and not in the cloud.\n"
+"\n"
+"You explicitly agree (or not) to reveal your personal data from your IRMA "
+"app to a website.\n"
+"When you remove your data from the IRMA app, they are really gone from IRMA."
+msgstr ""
+
+#: .help.question_5
+msgid "Why do the data in the IRMA app have limited validity?"
+msgstr ""
+
+#: .help.answer_5
+msgid ""
+"Every card in IRMA shows its validity. The validity period depends on the "
+"kind of data on the card and how stable these data are. Your name and date "
+"of birth data are valid for five years, but your address data only one year. "
+"The source (issuer) of the data determines this validity period. The cards "
+"in your IRMA app may thus expire. The IRMA app then gives you a warning.\n"
+"\n"
+"You can always, also without such a warning, refresh your cards by reloading "
+"them from the source. For instance, after your 18th birthday you can reload "
+"your data from your municipality so that you can prove that you are older "
+"than 18 now."
+msgstr ""
+
+#: .help.question_6
+msgid "Can I install IRMA on multiple mobile devices?"
+msgstr ""
+
+#: .help.answer_6
+msgid ""
+"Yes, on every mobile device (Android or iOS) you can install a separate IRMA "
+"app and fill it with cards with your personal data. It is actually wise to "
+"do so. If you lose one device, you can still log on with your other device."
+msgstr ""
+
+#: .help.ask
+msgid "Ask a question"
+msgstr ""
+
+#: .help.more
+msgid "More questions and answers"
+msgstr ""
+
+#: .help.more_link
+msgid "https://irma.app/?lang=en#faqs"
+msgstr ""
+
+#: .help.send
+msgid ""
+"Do you have other/more questions? Send an email. It may take a couple of "
+"days before you get a reply."
+msgstr ""
+
+#: .help.back_button
+msgid "Back to IRMA cards"
+msgstr ""
+
+#: .help.email
+msgid "Send an email"
+msgstr ""
+
+#: .help.contact
+msgid "app@privacybydesign.foundation"
+msgstr ""
+
+#: .help.mail_subject
+msgid "Assistance with the IRMA app"
+msgstr ""
+
+#: .help.mail_error_title
+msgctxt ".help.mail_error_title"
+msgid "Sorry"
+msgstr ""
+
+#: .help.mail_error
+msgid "Mail app cannot be opened"
+msgstr ""
+
+#: .help.mail_error_button
+msgctxt ".help.mail_error_button"
+msgid "OK"
+msgstr ""
+
+#: .drawer.lock_wallet
+msgid "Logout"
+msgstr ""
+
+#: .drawer.add_cards
+msgctxt ".drawer.add_cards"
+msgid "Adding cards"
+msgstr ""
+
+#: .drawer.settings
+msgctxt ".drawer.settings"
+msgid "Settings"
+msgstr ""
+
+#: .drawer.help
+msgctxt ".drawer.help"
+msgid "Help"
+msgstr ""
+
+#: .drawer.history
+msgctxt ".drawer.history"
+msgid "History"
+msgstr ""
+
+#: .drawer.about
+msgctxt ".drawer.about"
+msgid "About IRMA"
+msgstr ""
+
+#: .webview.open_iOS
+msgid "Open in Safari"
+msgstr ""
+
+#: .webview.open_browser
+msgid "Open in browser"
+msgstr ""
+
+#: .webview.cancel
+msgctxt ".webview.cancel"
+".webview.cancel"
+".webview.cancel"
+".webview.cancel"
+".webview.cancel"
+".webview.cancel"
+msgid "Cancel"
+msgstr ""
+
+#: .webview.select
+msgid "Select"
+msgstr ""
+
+#: .webview.alert_title
+msgid "Website not secure"
+msgstr ""
+
+#: .webview.alert_message
+msgid ""
+"The website that you wish to visit is not secure. You cannot view it within "
+"IRMA. Open another (browser) app if you still wish to visit this website."
+msgstr ""
+
+#: .webview.alert_button
+msgctxt ".webview.alert_button"
+".webview.alert_button"
+msgid "Close"
+msgstr ""
+
+#: .accessibility.irma_logo
+msgid "IRMA Logo"
+msgstr ""
+
+#: .accessibility.slideshow
+msgid "Slide {i} of {n}: {description}"
+msgstr ""
+
+#: .accessibility.menu
+msgid "Menu"
+msgstr ""
+
+#: .accessibility.back
+msgctxt ".accessibility.back"
+".accessibility.back"
+".accessibility.back"
+msgid "Back"
+msgstr ""
+
+#: .accessibility.close
+msgctxt ".accessibility.close"
+msgid "Close"
+msgstr ""
+
+#: .accessibility.next
+msgctxt ".accessibility.next"
+msgid "Next"
+msgstr ""
+
+#: .accessibility.alert
+msgid "Alert"
+msgstr ""
+
+#: .accessibility.previous
+msgid "Previous"
+msgstr ""
+
+#: .accessibility.expanded
+msgid "Expanded"
+msgstr ""
+
+#: .accessibility.collapsed
+msgid "Collapsed"
+msgstr ""
+
+#: .accessibility.unfold
+msgctxt ".accessibility.unfold"
+msgid "Expand"
+msgstr ""
+
+#: .accessibility.update
+msgctxt ".accessibility.update"
+msgid "Update"
+msgstr ""
+
+#: .accessibility.remove
+msgid "Remove"
+msgstr ""
+
+#: .accessibility.expand
+msgctxt ".accessibility.expand"
+msgid "Expand"
+msgstr ""
+
+#: .accessibility.refresh
+msgctxt ".accessibility.refresh"
+msgid "Refresh"
+msgstr ""
+
+#: .card.personaldata
+msgctxt ".card.personaldata"
+msgid "Personal data"
+msgstr ""
+
+#: .card.expiresAt
+msgctxt ".card.expiresAt"
+msgid "Card valid until"
+msgstr ""
+
+#: .card.delete
+msgctxt ".card.delete"
+msgid "Delete card"
+msgstr ""
+
+#: .card.refresh
+msgctxt ".card.refresh"
+msgid "Refresh card"
+msgstr ""
+
+#: .card.delete_title
+msgctxt ".card.delete_title"
+msgid "Are you sure?"
+msgstr ""
+
+#: .card.delete_content
+msgid "If you proceed, this card will be deleted from your IRMA app."
+msgstr ""
+
+#: .card.delete_confirm
+msgctxt ".card.delete_confirm"
+msgid "Delete card"
+msgstr ""
+
+#: .card.delete_deny
+msgctxt ".card.delete_deny"
+msgid "Cancel"
+msgstr ""
+
+#: .card_store.app_bar
+msgctxt ".card_store.app_bar"
+msgid "Adding cards"
+msgstr ""
+
+#: .card_store.choose
+msgid "Choose the data you wish to add."
+msgstr ""
+
+#: .card_store.search
+msgid "Search..."
+msgstr ""
+
+#: .card_store.personal_data
+msgctxt ".card_store.personal_data"
+msgid "Personal data"
+msgstr ""
+
+#: .card_store.category_other
+msgid "Other"
+msgstr ""
+
+#: .card_store.card_info.app_bar
+msgid "Adding data"
+msgstr ""
+
+#: .card_store.card_info.header_credential_type
+msgid "Adding {credential_type}"
+msgstr ""
+
+#: .card_store.card_info.obtain
+msgctxt ".card_store.card_info.obtain"
+".card_store.card_info.obtain"
+".card_store.card_info.obtain"
+msgid "Add"
+msgstr ""
+
+#: .card_store.card_info.issuer
+msgid "Source"
+msgstr ""
+
+#: .card_store.card_info.purpose_question
+msgid "What can you do with these data?"
+msgstr ""
+
+#: .card_store.card_info.content_question
+msgid "Which data are added?"
+msgstr ""
+
+#: .card_store.card_info.howto_question
+msgid "How does it work?"
+msgstr ""
+
+#: .card_store.card_info.back_button
+msgctxt ".card_store.card_info.back_button"
+msgid "Cancel"
+msgstr ""
+
+#: .card_store.card_info.get_button
+msgctxt ".card_store.card_info.get_button"
+msgid "Add"
+msgstr ""
+
+#: .settings.title
+msgctxt ".settings.title"
+msgid "Settings"
+msgstr ""
+
+#: .settings.start_qr
+msgid "Open QR scanner automatically after start-up"
+msgstr ""
+
+#: .settings.change_pin
+msgid "Change your PIN"
+msgstr ""
+
+#: .settings.advanced.header
+msgid "Advanced"
+msgstr ""
+
+#: .settings.advanced.experimental_data
+msgid "Enable loading of experimental data."
+msgstr ""
+
+#: .settings.advanced.report_errors
+msgid "Send error reports to IRMA"
+msgstr ""
+
+#: .settings.advanced.delete
+msgid "Delete everything and start over"
+msgstr ""
+
+#: .settings.advanced.delete_title
+msgctxt ".settings.advanced.delete_title"
+msgid "Are you sure?"
+msgstr ""
+
+#: .settings.advanced.delete_content
+msgid ""
+"If you proceed, all your cards will be deleted from your IRMA app. Do you "
+"wish to use IRMA again later? You will have to reload cards first."
+msgstr ""
+
+#: .settings.advanced.delete_confirm
+msgid "Yes, delete everything"
+msgstr ""
+
+#: .settings.advanced.delete_deny
+msgctxt ".settings.advanced.delete_deny"
+msgid "Cancel"
+msgstr ""
+
+#: .settings.advanced.developer_mode
+msgid "Developer mode"
+msgstr ""
+
+#: .settings.advanced.enable_screenshots
+msgid "Enable screenshots"
+msgstr ""
+
+#: .settings.advanced.enable_screenshots_note
+msgid "When enabled, the app will not be blurred in the app switcher."
+msgstr ""
+
+#: .change_pin.enter_pin.title
+msgctxt ".change_pin.enter_pin.title"
+".change_pin.enter_pin.title"
+msgid "Change PIN"
+msgstr ""
+
+#: .change_pin.enter_pin.instruction
+msgctxt ".change_pin.enter_pin.instruction"
+msgid "Enter your current PIN"
+msgstr ""
+
+#: .change_pin.enter_pin.error_title
+msgctxt ".change_pin.enter_pin.error_title"
+msgid "PIN incorrect"
+msgstr ""
+
+#: .change_pin.enter_pin.error
+msgctxt ".change_pin.enter_pin.error"
+msgid "Enter your current PIN"
+msgstr ""
+
+#: .change_pin.enter_pin.error_action
+msgctxt ".change_pin.enter_pin.error_action"
+msgid "OK"
+msgstr ""
+
+#: .change_pin.validating_pin.header
+msgid "One moment"
+msgstr ""
+
+#: .change_pin.validating_pin.details
+msgid "Your PIN is being checked"
+msgstr ""
+
+#: .change_pin.choose_pin.title
+msgctxt ".change_pin.choose_pin.title"
+msgid "Change PIN"
+msgstr ""
+
+#: .change_pin.choose_pin.instruction
+msgid "Choose your new PIN"
+msgstr ""
+
+#: .change_pin.choose_pin.switch_long
+msgid "Prefer a longer PIN?"
+msgstr ""
+
+#: .change_pin.choose_pin.switch_short
+msgid "Prefer a shorter PIN?"
+msgstr ""
+
+#: .change_pin.choose_pin.error_title
+msgctxt ".change_pin.choose_pin.error_title"
+msgid "PIN incorrect"
+msgstr ""
+
+#: .change_pin.choose_pin.error
+msgid "Different PINs. Choose a new PIN."
+msgstr ""
+
+#: .change_pin.choose_pin.error_action
+msgctxt ".change_pin.choose_pin.error_action"
+msgid "OK"
+msgstr ""
+
+#: .change_pin.confirm_pin.title
+msgctxt ".change_pin.confirm_pin.title"
+msgid "Change PIN"
+msgstr ""
+
+#: .change_pin.confirm_pin.instruction
+msgid "Enter your PIN one more time."
+msgstr ""
+
+#: .change_pin.updating_pin.header
+msgid "One moment please"
+msgstr ""
+
+#: .change_pin.updating_pin.details
+msgid "Your PIN is being changed"
+msgstr ""
+
+#: .change_pin.success.title
+msgctxt ".change_pin.success.title"
+".change_pin.success.title"
+msgid "Success"
+msgstr ""
+
+#: .change_pin.success.message
+msgid "Your PIN has been changed."
+msgstr ""
+
+#: .qr_scanner.instruction.title
+msgid "Start scanning"
+msgstr ""
+
+#: .qr_scanner.instruction.message
+msgid "Aim the camera of your mobile at the IRMA QR code"
+msgstr ""
+
+#: .qr_scanner.instruction.semantic
+msgid "Start scanning! Aim the camera of your mobile at the IRMA QR code."
+msgstr ""
+
+#: .qr_scanner.success.title
+msgctxt ".qr_scanner.success.title"
+msgid "Success"
+msgstr ""
+
+#: .qr_scanner.success.message
+msgid "QR code scanned"
+msgstr ""
+
+#: .qr_scanner.success.semantic
+msgid "Success! QR code scanned."
+msgstr ""
+
+#: .qr_scanner.error.title
+msgctxt ".qr_scanner.error.title"
+msgid "Sorry"
+msgstr ""
+
+#: .qr_scanner.error.message
+msgid "This is not an IRMA QR code"
+msgstr ""
+
+#: .qr_scanner.error.semantic
+msgid "Sorry! This is not an IRMA QR code."
+msgstr ""
+
+#: .pin_common.blocked_for
+msgid "Login is blocked for"
+msgstr ""
+
+#: .pin_common.second.time-0
+msgctxt ".pin_common.second.time-0"
+msgid "{time} seconds"
+msgstr ""
+
+#: .pin_common.second.time-1
+msgid "{time} second"
+msgstr ""
+
+#: .pin_common.second.time-2
+msgctxt ".pin_common.second.time-2"
+msgid "{time} seconds"
+msgstr ""
+
+#: .pin_common.minute.time-0
+msgctxt ".pin_common.minute.time-0"
+msgid "{time} minutes"
+msgstr ""
+
+#: .pin_common.minute.time-1
+msgid "{time} minute"
+msgstr ""
+
+#: .pin_common.minute.time-2
+msgctxt ".pin_common.minute.time-2"
+msgid "{time} minutes"
+msgstr ""
+
+#: .pin_common.hour.time-0
+msgctxt ".pin_common.hour.time-0"
+msgid "{time} hours"
+msgstr ""
+
+#: .pin_common.hour.time-1
+msgid "{time} hour"
+msgstr ""
+
+#: .pin_common.hour.time-2
+msgctxt ".pin_common.hour.time-2"
+msgid "{time} hours"
+msgstr ""
+
+#: .pin_common.day.time-0
+msgctxt ".pin_common.day.time-0"
+msgid "{time} days"
+msgstr ""
+
+#: .pin_common.day.time-1
+msgid "{time} day"
+msgstr ""
+
+#: .pin_common.day.time-2
+msgctxt ".pin_common.day.time-2"
+msgid "{time} days"
+msgstr ""
+
+#: .pin_common.invalid_title
+msgctxt ".pin_common.invalid_title"
+msgid "PIN incorrect"
+msgstr ""
+
+#: .pin_common.invalid_pin.attempts-0
+msgctxt ".pin_common.invalid_pin.attempts-0"
+msgid ""
+"This PIN is not correct. You have {attemps} attempts left before your IRMA "
+"app will be blocked temporarily."
+msgstr ""
+
+#: .pin_common.invalid_pin.attempts-1
+msgid ""
+"This PIN is not correct. You have {attemps} attempt left before your IRMA "
+"app will be blocked temporarily."
+msgstr ""
+
+#: .pin_common.invalid_pin.attempts-2
+msgctxt ".pin_common.invalid_pin.attempts-2"
+msgid ""
+"This PIN is not correct. You have {attemps} attempts left before your IRMA "
+"app will be blocked temporarily."
+msgstr ""
+
+#: .pin_common.invalid_close
+msgctxt ".pin_common.invalid_close"
+msgid "Try again"
+msgstr ""
+
+#: .pin_common.blocked_title
+msgid "Blocked"
+msgstr ""
+
+#: .pin_common.blocked_pin
+msgid "Your IRMA app has been blocked for {blocked}. Please try again later."
+msgstr ""
+
+#: .pin_common.blocked_close
+msgctxt ".pin_common.blocked_close"
+msgid "Try again"
+msgstr ""
+
+#: .pin_common.done
+msgctxt ".pin_common.done"
+msgid "Continue"
+msgstr ""
+
+#: .pin_common.view
+msgid "Show PIN"
+msgstr ""
+
+#: .pin_common.hide
+msgid "Hide PIN"
+msgstr ""
+
+#: .pin.title
+msgid "Login"
+msgstr ""
+
+#: .pin.subtitle
+msgid "Enter your PIN"
+msgstr ""
+
+#: .pin.button_forgot
+msgid "PIN forgotten"
+msgstr ""
+
+#: .pin.button_block
+msgid "Block IRMA"
+msgstr ""
+
+#: .session_pin.subtitle
+msgid "Re-enter your PIN to continue."
+msgstr ""
+
+#: .session_pin.explanation
+msgid "For your safety, the IRMA app regularly asks for your PIN."
+msgstr ""
+
+#: .error.title
+msgid "Something went wrong"
+msgstr ""
+
+#: .error.blocked_title
+msgid "App blocked"
+msgstr ""
+
+#: .error.button_ok
+msgctxt ".error.button_ok"
+msgid "OK"
+msgstr ""
+
+#: .error.button_send_to_irma
+msgid "Send to IRMA's technical team"
+msgstr ""
+
+#: .error.button_show_error
+msgid "Show technical details"
+msgstr ""
+
+#: .error.button_retry
+msgid "Please try again"
+msgstr ""
+
+#: .error.button_back
+msgctxt ".error.button_back"
+msgid "Back"
+msgstr ""
+
+#: .error.button_reset
+msgctxt ".error.button_reset"
+msgid "Start all over"
+msgstr ""
+
+#: .error.details_title
+msgid "Error message"
+msgstr ""
+
+#: .error.report
+msgid "If this happens again, please inform IRMA's technical team."
+msgstr ""
+
+#: .error.types.general
+msgid "Something went wrong."
+msgstr ""
+
+#: .error.types.blocked
+msgid ""
+"Your IRMA app has been remotely blocked.\n"
+"\n"
+"This has either been done via MyIRMA for your app, or because you did not "
+"use IRMA on this device for more than a year. If you want to continue using "
+"IRMA on this device, you will need to start over."
+msgstr ""
+
+#: .error.types.expired
+msgid "The session has expired. Please start over."
+msgstr ""
+
+#: .error.types.pairing_rejected
+msgid "The session was rejected. Please start over."
+msgstr ""
+
+#: .error.types.no_internet
+msgid ""
+"Something went wrong. IRMA needs internet.\n"
+"\n"
+"Please check your internet connection."
+msgstr ""
+
+#: .wallet.title
+msgid "IRMA cards"
+msgstr ""
+
+#: .wallet.scan_qr_code
+msgid "Scan QR code"
+msgstr ""
+
+#: .wallet.open_menu
+msgid "Open Menu"
+msgstr ""
+
+#: .wallet.close_menu
+msgid "Close Menu"
+msgstr ""
+
+#: .wallet.toggle
+msgid "Change display"
+msgstr ""
+
+#: .wallet.issuer
+msgctxt ".wallet.issuer"
+msgid "Issuer"
+msgstr ""
+
+#: .wallet.expiration
+msgctxt ".wallet.expiration"
+msgid "Card valid until"
+msgstr ""
+
+#: .wallet.expired
+msgid "This card has expired"
+msgstr ""
+
+#: .wallet.expired_on
+msgid "Card expired"
+msgstr ""
+
+#: .wallet.expires_soon.data-0
+msgid "This card expires in {data} days"
+msgstr ""
+
+#: .wallet.revoked
+msgid "This card is no longer valid"
+msgstr ""
+
+#: .wallet.not_valid
+msgid "Card not valid"
+msgstr ""
+
+#: .wallet.refresh
+msgctxt ".wallet.refresh"
+msgid "Refresh card"
+msgstr ""
+
+#: .wallet.delete
+msgid "Remove card"
+msgstr ""
+
+#: .wallet.cannot_be_refreshed
+msgid "This card cannot be refreshed anymore."
+msgstr ""
+
+#: .wallet.close
+msgctxt ".wallet.close"
+msgid "Close"
+msgstr ""
+
+#: .wallet.help
+msgctxt ".wallet.help"
+msgid "Help"
+msgstr ""
+
+#: .wallet.caption
+msgid "Your data securely on your mobile"
+msgstr ""
+
+#: .wallet.pbdf_gemeente_personalData.nudge
+msgid "Add your personal data"
+msgstr ""
+
+#: .wallet.add_data
+msgid "Add more data"
+msgstr ""
+
+#: .wallet.lock
+msgid "Log out"
+msgstr ""
+
+#: .history.title
+msgctxt ".history.title"
+msgid "History"
+msgstr ""
+
+#: .history.button_back
+msgctxt ".history.button_back"
+msgid "Back"
+msgstr ""
+
+#: .history.type.removal.header
+msgid "Cards deleted on"
+msgstr ""
+
+#: .history.type.removal.subtitle
+msgid "Deleted cards"
+msgstr ""
+
+#: .history.type.removal.data-0
+msgctxt ".history.type.removal.data-0"
+msgid "{data} card deleted"
+msgstr ""
+
+#: .history.type.removal.data-1
+msgctxt ".history.type.removal.data-1"
+msgid "{data} card deleted"
+msgstr ""
+
+#: .history.type.removal.data-2
+msgid "{data} cards deleted"
+msgstr ""
+
+#: .history.type.issuing.header
+msgid "Cards issued by"
+msgstr ""
+
+#: .history.type.issuing.subtitle
+msgid "Issued cards"
+msgstr ""
+
+#: .history.type.issuing.data-0
+msgctxt ".history.type.issuing.data-0"
+msgid "{data} card issued by"
+msgstr ""
+
+#: .history.type.issuing.data-1
+msgctxt ".history.type.issuing.data-1"
+msgid "{data} card issued by"
+msgstr ""
+
+#: .history.type.issuing.data-2
+msgid "{data} cards issued by"
+msgstr ""
+
+#: .history.type.disclosing_header
+msgctxt ".history.type.disclosing_header"
+msgid "Data disclosed to"
+msgstr ""
+
+#: .history.type.disclosing.header
+msgctxt ".history.type.disclosing.header"
+msgid "Data disclosed to"
+msgstr ""
+
+#: .history.type.disclosing.subtitle
+msgid "Disclosed data"
+msgstr ""
+
+#: .history.type.disclosing.data-0
+msgctxt ".history.type.disclosing.data-0"
+".history.type.disclosing.data-0"
+msgid "{data} disclosed to"
+msgstr ""
+
+#: .history.type.disclosing.data-1
+msgctxt ".history.type.disclosing.data-1"
+msgid "{data} disclosed to"
+msgstr ""
+
+#: .history.type.disclosing.data-2
+msgctxt ".history.type.disclosing.data-2"
+msgid "{data} disclosed to"
+msgstr ""
+
+#: .history.type.siging_header
+msgid "Signed messages"
+msgstr ""
+
+#: .history.type.signing.header
+msgid "Message signed upon request of"
+msgstr ""
+
+#: .history.type.signing.subtitle
+msgid "Signed message"
+msgstr ""
+
+#: .history.type.signing.subtitle_used_data
+msgid "Message signed with personal data"
+msgstr ""
+
+#: .history.type.signing.data-0
+msgctxt ".history.type.signing.data-0"
+".history.type.signing.data-0"
+msgid "Signed with {data} upon request of"
+msgstr ""
+
+#: .history.type.signing.data-1
+msgctxt ".history.type.signing.data-1"
+msgid "Signed with {data} upon request of"
+msgstr ""
+
+#: .history.type.signing.data-2
+msgctxt ".history.type.signing.data-2"
+msgid "Signed with {data} upon request of"
+msgstr ""
+
+#: .issuance.title
+msgctxt ".issuance.title"
+msgid "Add cards"
+msgstr ""
+
+#: .issuance.header-0
+msgctxt ".issuance.header-0"
+msgid "Do you wish to add this card to your IRMA app?"
+msgstr ""
+
+#: .issuance.header-1
+msgctxt ".issuance.header-1"
+msgid "Do you wish to add this card to your IRMA app?"
+msgstr ""
+
+#: .issuance.header-2
+msgid "Do you wish to add these cards to your IRMA app?"
+msgstr ""
+
+#: .session.navigation_bar.more
+msgid "More"
+msgstr ""
+
+#: .session.navigation_bar.yes
+msgid "Yes"
+msgstr ""
+
+#: .session.navigation_bar.no
+msgid "No"
+msgstr ""
+
+#: .session.navigation_bar.back
+msgctxt ".session.navigation_bar.back"
+msgid "Back"
+msgstr ""
+
+#: .session.navigation_bar.cancel
+msgctxt ".session.navigation_bar.cancel"
+msgid "Cancel"
+msgstr ""
+
+#: .session.pairing.title
+msgid "Extra safety check"
+msgstr ""
+
+#: .session.pairing.explanation
+msgid "Please enter the code below on the website."
+msgstr ""
+
+#: .session.pairing.message_title
+msgid "Pairing code"
+msgstr ""
+
+#: .session.pairing.message_body_markdown
+msgid ""
+"A pairing code makes sure that the following steps can only be done in *your*"
+" IRMA app."
+msgstr ""
+
+#: .session.unknown_session_type.title
+msgctxt ".session.unknown_session_type.title"
+".session.unknown_session_type.title"
+msgid "Cancelled"
+msgstr ""
+
+#: .session.unknown_session_type.explanation
+msgid "The IRMA session that you started is not supported by the app."
+msgstr ""
+
+#: .disclosure.title
+msgctxt ".disclosure.title"
+msgid "Make yourself known"
+msgstr ""
+
+#: .disclosure.disclosure_header
+msgid "Do you wish to disclose the following data to {otherParty}?"
+msgstr ""
+
+#: .disclosure.disclosure_call_header
+msgid ""
+"Do you wish to diclose the following data to {otherParty} and call to "
+"{phoneNumber}?"
+msgstr ""
+
+#: .disclosure.signing_header
+msgid "{otherParty} asks you to sign a message"
+msgstr ""
+
+#: .disclosure.signing_call_header
+msgid "{otherParty} asks you to sign a message and call to {phoneNumber}"
+msgstr ""
+
+#: .disclosure.unsatisfiable_header
+msgid ""
+"You don't yet have all data that {otherParty} is asking for in your IRMA app."
+msgstr ""
+
+#: .disclosure.issuer
+msgctxt ".disclosure.issuer"
+msgid "Issuer"
+msgstr ""
+
+#: .disclosure.logo_semantic
+msgid "Logo of {otherParty}"
+msgstr ""
+
+#: .disclosure.credential_name
+msgid "Card"
+msgstr ""
+
+#: .disclosure.choices
+msgid "{choices} choices"
+msgstr ""
+
+#: .disclosure.next
+msgid "next choices"
+msgstr ""
+
+#: .disclosure.previous
+msgid "previous choices"
+msgstr ""
+
+#: .disclosure.not_present
+msgid "These data have not yet been added to IRMA."
+msgstr ""
+
+#: .disclosure.not_present_have_other
+msgid "The requested data do not match with the data you already have."
+msgstr ""
+
+#: .disclosure.you_have
+msgid "You have:"
+msgstr ""
+
+#: .disclosure.requested_for
+msgid "This is requested:"
+msgstr ""
+
+#: .disclosure.card_count
+msgid "{i} of {total}"
+msgstr ""
+
+#: .disclosure.among_others
+msgid "Among others"
+msgstr ""
+
+#: .disclosure.add_additional
+msgid ""
+"Want to show different information? Add an additional '{credential}' card."
+msgstr ""
+
+#: .disclosure.expired
+msgid "These data are expired."
+msgstr ""
+
+#: .disclosure.revoked
+msgid "These data have been revoked."
+msgstr ""
+
+#: .disclosure.not_revokable
+msgid "These data have to be refreshed first."
+msgstr ""
+
+#: .disclosure.obtain
+msgctxt ".disclosure.obtain"
+msgid "Add"
+msgstr ""
+
+#: .disclosure.refresh
+msgctxt ".disclosure.refresh"
+msgid "Refresh"
+msgstr ""
+
+#: .disclosure.nothing_selected
+msgid "Nothing selected"
+msgstr ""
+
+#: .disclosure.explanation.title
+msgid "You can choose"
+msgstr ""
+
+#: .disclosure.explanation.body
+msgid "Select which data you disclose. Use the arrow or swipe and choose."
+msgstr ""
+
+#: .disclosure.explanation.dismiss
+msgctxt ".disclosure.explanation.dismiss"
+msgid "OK"
+msgstr ""
+
+#: .disclosure.explanation.dismiss-remember
+msgid "Do not show anymore"
+msgstr ""
+
+#: .disclosure.redirect
+msgid "You are being redirected back to the webpage..."
+msgstr ""
+
+#: .disclosure.feedback.header.success
+msgctxt ".disclosure.feedback.header.success"
+msgid "Success"
+msgstr ""
+
+#: .disclosure.feedback.header.canceled
+msgctxt ".disclosure.feedback.header.canceled"
+msgid "Cancelled"
+msgstr ""
+
+#: .disclosure.feedback.header.notSatisfiable
+msgctxt ".disclosure.feedback.header.notSatisfiable"
+msgid "Cancelled"
+msgstr ""
+
+#: .disclosure.feedback.text.success
+msgid "Your data are disclosed to {otherParty}"
+msgstr ""
+
+#: .disclosure.feedback.text.canceled
+msgid "Your data are not disclosed to {otherParty}"
+msgstr ""
+
+#: .disclosure.feedback.text.notSatisfiable
+msgid ""
+"Your data are not disclosed because {otherParty} requests outdated cards. "
+"Please contact this party."
+msgstr ""
+
+#: .disclosure.call_info.title
+msgid "Call via IRMA"
+msgstr ""
+
+#: .disclosure.call_info.success
+msgid "Data disclosed"
+msgstr ""
+
+#: .disclosure.call_info.success_message_markdown
+msgid ""
+"Your data have now been disclosed to **{otherParty}**.\n"
+"Complete the steps below to start the call."
+msgstr ""
+
+#: .disclosure.call_info.success_message_ios_markdown
+msgid "Your data have now been disclosed to **{otherParty}**."
+msgstr ""
+
+#: .disclosure.call_info.continue
+msgid "1. Choose continue"
+msgstr ""
+
+#: .disclosure.call_info.continue_ios
+msgid "Choose continue to call"
+msgstr ""
+
+#: .disclosure.call_info.continue_message
+msgid ""
+"Your phone app now opens automatically. The number is pre-filled, followed "
+"by a link-code."
+msgstr ""
+
+#: .disclosure.call_info.continue_message_ios
+msgid ""
+"A pop-up will appear, with the option to place the call. The number is pre-"
+"filled, followed by a link-code. If you choose to call, you will hear a few "
+"beeps and you will be connected."
+msgstr ""
+
+#: .disclosure.call_info.call
+msgid "2. Tap the call button in your phone app"
+msgstr ""
+
+#: .disclosure.call_info.call_message
+msgid "You will hear a few beeps and you will be connected."
+msgstr ""
+
+#: .disclosure.call_info.continue_button
+msgctxt ".disclosure.call_info.continue_button"
+msgid "Continue"
+msgstr ""
+
+#: .reset_pin.title
+msgid "Lost PIN"
+msgstr ""
+
+#: .reset_pin.message
+msgid ""
+"Lost your PIN? We're sorry but the IRMA organisation does not keep record of "
+"your PIN. If you wish to continue using IRMA, you will have to enter a new "
+"PIN and reload all data."
+msgstr ""
+
+#: .reset_pin.existing_data_title
+msgid "What happens with my old cards?"
+msgstr ""
+
+#: .reset_pin.existing_data_message
+msgid ""
+"Your old cards will be deleted from your phone. If you like, you can collect "
+"new cards and start using IRMA again."
+msgstr ""
+
+#: .reset_pin.back
+msgctxt ".reset_pin.back"
+msgid "Cancel"
+msgstr ""
+
+#: .reset_pin.reset
+msgctxt ".reset_pin.reset"
+msgid "Start all over"
+msgstr ""
+
+#: .reset_pin.existing_data_removed
+msgid "All cards in your IRMA app are deleted."
+msgstr ""
+
+#: .arrow_back.info_no_success
+msgid "Cancelled."
+msgstr ""
+
+#: .arrow_back.info_success-0
+msgid "Done, your data have been disclosed."
+msgstr ""
+
+#: .arrow_back.info_success-1
+msgid "Done, the card is added."
+msgstr ""
+
+#: .arrow_back.info_success-2
+msgid "Done, the cards are added."
+msgstr ""
+
+#: .arrow_back.safari
+msgid ""
+"Tap on the name of the application (such as Safari, Chrome, Firefox) in the "
+"top left corner to return to the application you came from."
+msgstr ""
+
+#: .update.required
+msgid "In order to continue using IRMA, you will need to update the app"
+msgstr ""
+
+#: .update.doupdate
+msgctxt ".update.doupdate"
+msgid "Update"
+msgstr ""
+
+#: .action_feedback.ok
+msgctxt ".action_feedback.ok"
+msgid "OK"
+msgstr ""
+
+#: .device_rooted_warning.title
+msgid "Device unsafe"
+msgstr ""
+
+#: .device_rooted_warning.body
+msgid ""
+"The operating system on your device seems to be modified. Because of this, "
+"the safety of your data cannot be guaranteed."
+msgstr ""
+
+#: .device_rooted_warning.button_accept_risk
+msgid "I accept the risk"
+msgstr ""
+
+#: .issue_wizard.back
+msgctxt ".issue_wizard.back"
+msgid "Cancel"
+msgstr ""
+
+#: .issue_wizard.done
+msgctxt ".issue_wizard.done"
+msgid "OK"
+msgstr ""
+
+#: .issue_wizard.add
+msgctxt ".issue_wizard.add"
+msgid "Add"
+msgstr ""
+
+#: .issue_wizard.add_cards
+msgctxt ".issue_wizard.add_cards"
+msgid "Add cards"
+msgstr ""
+
+#: .issue_wizard.add_credential
+msgid "Add {credential}"
+msgstr ""
