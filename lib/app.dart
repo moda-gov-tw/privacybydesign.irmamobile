@@ -81,6 +81,7 @@ class AppState extends State<App> with WidgetsBindingObserver, NavigatorObserver
     return const [
       Locale('en', 'US'),
       Locale('nl', 'NL'),
+      Locale('zh_Hant', 'ZH-Hant'),
     ];
   }
 
