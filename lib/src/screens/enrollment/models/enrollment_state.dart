@@ -29,7 +29,7 @@ class EnrollmentState with EquatableMixin {
   EnrollmentState({
     this.pin = '',
     this.email = '',
-    this.languageCode = 'nl',
+    this.languageCode = 'tw',
     this.pinConfirmed = false,
     this.pinMismatch = false,
     this.emailValid = false,
