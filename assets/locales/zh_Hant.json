@@ -10,16 +10,16 @@
         "introduction": {
             "button_text": "選擇 PIN 碼",
             "screen1": {
-                "title": "IRMA 是您在行動裝置上的身份",
-                "text": "您的正式姓名、出生日期、地址與更多資料。全都安全地儲存在您的 IRMA 應用程式中。"
+                "title": "IRMA 是您行動裝置上的身分",
+                "text": "您的本名、出生日期、住址和其他資料等。全都安全地儲存在您的 IRMA 程式中。"
             },
             "screen2": {
-                "title": "透過 IRMA 讓自己為人所知",
+                "title": "透過 IRMA 讓他人知道您",
                 "text": "簡單、安全、快速。一切都在您掌控之中。"
             },
             "screen3": {
-                "title": "IRMA 為您與其他人提供安全保障",
-                "text": "您的資料僅儲存於 IRMA 應用程式中。只有您可以存取。",
+                "title": "IRMA 為您與其他人提供確信的基礎",
+                "text": "您的資料僅儲存在 IRMA 程式中。只有您可以存取。",
                 "privacy": {
                     "text": "請閱讀隱私規則",
                     "url": "https://privacybydesign.foundation/privacy-policy-en/"
@@ -27,7 +27,7 @@
             }
         },
         "choose_pin": {
-            "title": "保護您的 IRMA 應用程式",
+            "title": "保護您的 IRMA 程式安全",
             "insert_pin": "選擇 5 位數的 PIN 碼",
             "textfield": "PIN 碼",
             "confirm_title": "再次輸入您的 PIN 碼",
@@ -39,51 +39,51 @@
             "error_action": "確定"
         },
         "provide_email": {
-            "title": "保護您的 IRMA 應用程式",
+            "title": "保護您的 IRMA 程式安全",
             "textfield": "電子郵件地址",
             "skip": "略過",
             "next": "下一步",
             "error": "此電子郵件地址無效",
             "skip_title": "您確定嗎？",
             "insert_email": "輸入電子郵件地址",
-            "instruction": "當您的行動裝置遺失或被盜時，電子郵件應用程式讓您可以停用您的 IRMA 應用程式。",
-            "skip_content": "保護您的資料。當您輸入電子郵件地址時，您可以在行動裝置遺失或被盜時封鎖您的 IRMA 應用程式。"
+            "instruction": "當您的行動裝置遺失或被盜時，電子郵件地址讓您可以停用您的 IRMA 程式。",
+            "skip_content": "保護您的資料。當您輸入電子郵件地址時，可以在行動裝置遺失或被盜的情況下，封鎖您的 IRMA 程式。"
         },
         "email_sent": {
-            "title": "保護您的 IRMA 應用程式",
+            "title": "保護您的 IRMA 程式",
             "button": "繼續",
             "message_title": "確認您的電子郵件地址",
-            "message_markdown": "您已收到來自 **noreply@sidn.nl** 的電子郵件。開啟該郵件中的連結，將您的電子郵件連結到您的 IRMA 應用程式。",
+            "message_markdown": "您已收到來自 **noreply@sidn.nl** 的電子郵件。請開啟該郵件中的連結，將您的電子郵件與您的 IRMA 程式連結。",
             "mail_sent_text_markdown": "電子郵件已傳送至：**{emailaddress}**。",
             "check_spam": "電子郵件傳送需要一些時間。若您未在收件匣中看到郵件，請檢查您的垃圾郵件資料夾。"
         },
         "submit": {
             "title": "正在登入",
-            "progress_enrollment": "您已登入"
+            "progress_enrollment": "正在將您登入"
         }
     },
     "about": {
         "title": "關於 IRMA",
-        "header": "讓自己為人所知",
+        "header": "讓他人知道您",
         "check_out": "參見： ",
         "award": "荷蘭隱私獎",
         "award_link": "https://privacyawards.nl/2018-2/",
         "why_irma_item": "IRMA 為何而生？",
         "privacy_item": "IRMA，隱私且安全",
-        "privacy_explanation_markdown": "IRMA 應用程式被開發為只有您可以看見並使用您的個人資料。您的個人資料僅儲存於您的手機而不在雲端中。\n\nIRMA 應用程式是用來讓需要您資料的網站或商店（以加密形式）檢查您揭露的資料是否為真。\n\nIRMA 應用程式直接從您的手機向網站揭露您的資料。沒有其他人可以看到您在那裡表明了身份。即使是 IRMA 背後的組織也看不到這動作揭露的資訊。\n\n使用 IRMA 時，即表示您同意隱私權政策 [link]。",
-        "responsibility_item": "您的責任",
-        "learn_more": "取得更多資訊",
+        "privacy_explanation_markdown": "IRMA 程式被開發成只有您可以看見並使用您的個人資料。您的個人資料僅儲存在您的手機裡，而不在雲端。\n\nIRMA 程式是設計用來讓需要知道您是誰的網站或商店，可以（以加密形式）檢查您揭露的資料是否真實。\n\nIRMA 程式將您的資料直接從您的手機揭露給網站知道。沒有其他人可以查看您在那裡表明了什麼身分。即使是 IRMA 背後的組織也看不到這個動作中所揭露的資訊。\n\n使用 IRMA 時，即表示您同意隱私權政策 [link]。",
+        "responsibility_item": "您的自身責任",
+        "learn_more": "了解更多資訊",
         "more_information": "IRMA 網站",
         "irma_website_link": "https://irma.app/?lang=en",
         "source_code": "原始碼",
         "source_code_link": "https://github.com/privacybydesign",
-        "contact": "聯絡",
-        "contact_subject": "IRMA 應用程式",
-        "privacy_policy": "IRMA 的隱私規則",
+        "contact": "聯絡資訊",
+        "contact_subject": "IRMA 程式",
+        "privacy_policy": "IRMA 隱私規則",
         "privacy_policy_link": "https://privacybydesign.foundation/privacy-policy-en",
-        "demo": "常見問題與展示",
-        "demo_link": "應用程式內連結",
-        "get_involved": "隨時了解狀況並參與其中",
+        "demo": "常見問題與示範",
+        "demo_link": "程式內連結",
+        "get_involved": "持續了解狀況並參與其中",
         "meetups": "IRMA 聚會",
         "meetups_link": "https://privacybydesign.foundation/meetings/",
         "twitter": "@irma_privacy",
@@ -91,65 +91,65 @@
         "github": "GitHub",
         "github_link": "https://github.com/privacybydesign",
         "share_slogan": "與其他人分享 IRMA",
-        "share_text": "查看 IRMA 應用程式：https://irma.app",
+        "share_text": "看一下 IRMA 程式：https://irma.app",
         "share": "分享 IRMA",
         "version": "版本 {version}",
         "pbdf": "Privacy by Design",
         "pbdf_link": "https://privacybydesign.foundation/en/",
         "slogan": "有了 IRMA，一切都在您的掌控之中。",
-        "who_is_behind_irma_item": "誰是 IRMA 應用程式的幕後推手？",
-        "copyright": "Privacy by Design 基金會版權所有，2020，以 GPL 授權條款 3.0 釋出",
+        "who_is_behind_irma_item": "誰是 IRMA 程式的幕後推手？",
+        "copyright": "Privacy by Design 基金會著作權所有，2020，以 GPL 授權條款 3.0 版發行",
         "developer_mode_enabled": "已啟用開發者模式",
-        "who_is_behind_irma_explanation_markdown": "IRMA 由 **Privacy by Design** 基金會製作。2016年，基金會誕生自奈梅亨拉德伯德大學的數位安全研究小組。該基金會是獨立的非營利組織。\n\nIRMA 是開放原始碼的應用程式，與 .nl 網域的管理者 SIDN 共同開發。同時也與地方政府及衛生保健部門共同完成。大約有 30 個城市參與，包含了奈梅亨、阿姆斯特丹、萊頓等等。IRMA 也獲得了2018年的荷蘭隱私獎。",
-        "responsibility_explanation": "提供 IRMA 的網站一律都會詢問該登入所需的資料。在 IRMA 應用程式中，您決定是否同意（或不同意）所要求揭露的資訊。\n網站要求太多資料了嗎？那麼不同意是明智的。您可以考慮投訴。您可以在網站本身或[資料保護機構](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap)。\n\n使用 IRMA 應用程式，您也可以放置數位簽章。這類簽章是有法律後果的。因此，使用 IRMA 應用程式進行數位簽章請務必小心。\n\n若您使用 IRMA 應用程式進行數位簽章，則您同意 Privacy by Design 基金會絕不是您透過 IRMA 簽章簽訂的任何協議的一方。基金會不承擔任何責任。",
-        "why_irma_explanation_markdown": "**IRMA 的存在是因為您有權掌握您真正擁有的線上身份。**IRMA 並非用來追蹤您、分析您與販售您個人資料給第三方的商業應用程式。\n\nIRMA 遵循[《一般資料保護規則》(GDPR)](https://gdpr-info.eu/) 的精神。透過 IRMA 應用程式，您僅會在特定情況下揭露相關且必要的個人資料。\n\n**使用 IRMA 應用程式，您的身份都在您掌握之中，並由您手機的 IRMA 應用程式保護。**IRMA 應用程式是一種讓自己（在線上）為人所知與進行數位簽章的強大工具，同時也尊重您的隱私。"
+        "who_is_behind_irma_explanation_markdown": "IRMA 由 **Privacy by Design** 基金會製作。2016年，基金會誕生自奈梅亨拉德堡德大學（Radboud University Nijmegen）的數位安全研究小組。該基金會是獨立運作的非營利組織。\n\nIRMA 是開放原始碼的程式，我們與 .nl 網域的管理者 SIDN 聯合開發。同時也有地方政府及衛生保健部門共同參與完成，其中大約有 30 個都市參與，包含了奈梅亨、阿姆斯特丹、萊頓等等。IRMA 也獲得了2018年的荷蘭隱私獎。",
+        "responsibility_explanation": "提供 IRMA 的網站一律都會詢問登入時所需的資料。在 IRMA 程式中，由您自行決定是否同意要求揭露的資訊。\n會不會網站要求的資料太多了呢？此時不同意才是明智的選擇。您可以考慮申訴。您可以向網站本身，或是向[資料保護機關](https://autoriteitpersoonsgegevens.nl/nl/zelf-doen/gebruik-uw-privacyrechten/klacht-melden-bij-de-ap)申訴。\n\n使用 IRMA 程式時，您也可以放置數位簽章。這類簽章是帶有法律後果的。因此，使用 IRMA 程式進行數位簽章時，請務必謹慎。\n\n若您使用 IRMA 程式作數位簽章，則代表您同意 Privacy by Design 基金會絕不是涉及您透過 IRMA 簽章所簽訂的任何協議的一方。基金會不負責，也不承擔任何法律責任。",
+        "why_irma_explanation_markdown": "**IRMA 的存在是為了讓您有權掌握您實際擁有的線上身分。** IRMA 並非用來追蹤您、分析您，與販售您個人資料給第三方的商業程式。\n\nIRMA 遵循[《一般資料保護規則》(GDPR)](https://gdpr-info.eu/) 的精神。透過 IRMA 程式，您只會在特定情況下揭露相關且必要的個人資料。\n\n**使用 IRMA 程式，您的身分都在您掌握之中，由您自身手機的 IRMA 程式安全保護著。** IRMA 程式是個（在線上世界）讓他人知道您是誰，以及進行數位簽章的強大工具，同時尊重您的隱私。"
     },
     "manual": {
         "faq": "手冊",
-        "faq_info": "如何使用 IRMA？請見下方解釋。",
+        "faq_info": "如何使用 IRMA？請見下方解說。",
         "question_1": "如何使用 IRMA 登入行動版網站？",
         "answer_1": {
-            "step_2": "IRMA 應用程式自動啟動。\n輸入您的 PIN 碼。",
+            "step_2": "IRMA 程式會自動啟動。\n請輸入您的 PIN 碼。",
             "step_3": "同意（或不同意）揭露您的個人資料。",
-            "step_4": "揭露後您已登入。\n您現在可以使用網站了。",
-            "step_1": "在您的行動裝置上開啟網站並選取使用 IRMA 登入。"
+            "step_4": "揭露後您就登入。\n您現在可以使用網站了。",
+            "step_1": "在您的行動裝置上開啟網站，並選取使用 IRMA 登入。"
         },
-        "question_2": "如何使用 IRMA 在我的電腦登入網站？",
+        "question_2": "如何在我的電腦上使用 IRMA 登入網站？",
         "answer_2": {
-            "step_2": "在您的行動裝置開啟 IRMA 應用程式並輸入您的 PIN 碼。",
-            "step_3": "在 IRMA 中開啟 QR code 掃描器。掃描電腦畫面上的 QR code。",
+            "step_2": "在您的行動裝置裡開啟 IRMA 程式，並輸入您的 PIN 碼。",
+            "step_3": "在 IRMA 中開啟 QR 圖碼掃描器。掃描電腦畫面中的 QR 圖碼。",
             "step_4": "同意（或不同意）揭露您的個人資料。",
-            "step_5": "揭露後您已登入。\n您現在可以使用網站了。",
-            "step_1": "在您的電腦開啟網站並選取 IRMA 登入。"
+            "step_5": "揭露後您就登入。\n您現在可以使用網站了。",
+            "step_1": "在您的電腦上開啟網站，並選取 IRMA 登入。"
         }
     },
     "help": {
         "title": "說明",
         "faq": "常見問題",
-        "faq_info": "看看您的問題是否已列在此處",
+        "faq_info": "看看您的問題是否有列在這裡",
         "question_1": "我能用 IRMA 做什麼？",
         "question_2": "行動裝置遺失了怎麼辦？",
-        "question_3": "是什麼讓 IRMA 利於隱私且安全？",
+        "question_3": "是什麼讓 IRMA 便於保有隱私還能兼具安全？",
         "question_4": "我的 IRMA 資料儲存在哪裡？",
-        "answer_4": "您的資料儲存於您行動裝置上的 IRMA 應用程式中，而非雲端。\n\n您必須明確同意（或不同意）從您的 IRMA 應用程式揭露您的個人資料給網站。\n當您從 IRMA 應用程式移除資料時，它們真的已經從 IRMA 中消失了。",
-        "question_5": "為什麼 IRMA 應用程式中的資料有效期限制？",
+        "answer_4": "您的資料儲存在您行動裝置的 IRMA 程式裡，而非雲端。\n\n您必須明確同意（或不同意）從您的 IRMA 程式將您的個人資料揭露給網站。\n當您從 IRMA 程式移除您的資料時，它們真實地從 IRMA 中消失。",
+        "question_5": "為什麼 IRMA 程式中的資料有效期限制？",
         "question_6": "我可以在多個行動裝置上安裝 IRMA 嗎？",
-        "answer_6": "是的，您在每台行動裝置（Android 或 iOS）上都可以安裝單獨的 IRMA 應用程式，並在其中填入包含您個人資料的卡片。這樣做其實是明智的。若您遺失其中一個裝置，您仍然可以使用另一台裝置登入。",
+        "answer_6": "是的，您在每台行動裝置（Android 或 iOS）上都可以安裝各自的 IRMA 程式，並在其中填入包含您個人資料的卡片。這其實是明智的作法。若您遺失其中一個裝置，您仍然可以使用另一台裝置登入。",
         "ask": "詢問問題",
         "more": "更多問題與回答",
         "more_link": "https://irma.app/?lang=en#faqs",
-        "send": "您還有更多其他問題嗎？傳送電子郵件。您可能需要幾天時間才能收到回覆。",
+        "send": "您還有其他問題嗎？請傳送電子郵件。您可能需要幾天時間才能收到回覆。",
         "back_button": "回到 IRMA 卡片",
         "email": "傳送電子郵件",
         "contact": "app@privacybydesign.foundation",
-        "mail_subject": "IRMA 應用程式協助",
+        "mail_subject": "IRMA 程式協助",
         "mail_error_title": "抱歉",
-        "mail_error": "無法開啟郵件應用程式",
+        "mail_error": "無法開啟郵件程式",
         "mail_error_button": "確定",
-        "answer_1_markdown": "使用 IRMA，您可以輕鬆登入並讓自己為人所知。您僅會揭露必要的個人資料。舉例來說，為了觀看某部電影，您可能會揭露您已超過 16 歲，僅此而已。使用 IRMA，您也可以數位簽署文件。您只在某種數位戳記中使用您的相關特徵。透過這種方式，IRMA 讓您以醫生、公民或是其他身份簽章。\n\n愈來愈多網站支援使用 IRMA 登入。舉例來說，荷蘭的醫生可以透過 [helder](https://www.helder.health/) 網站存取病例。對 IRMA 的支援正在增加，尤其是在地方政府與衛生保健提供者之中。要了解各種可能性，您可以自己試試看一些 IRMA 的 [展示](https://privacybydesign.foundation/demo-en/)。",
-        "answer_2_markdown": "若您遺失行動裝置，至少在您選擇了罕見的 PIN 碼的情況下，沒有人可以使用您的 IRMA 應用程式。\n\n您甚至可以獲得更強大的保護：安裝 IRMA 後，您可以選擇輸入電子郵件地址。若您這麼做了，那就可以透過 [MyIRMA](https://privacybydesign.foundation/myirma/) 完全封鎖您的 IRMA 應用程式。您舊的（遺失的）行動裝置上的 IRMA 應用程式將會完全無法使用。\n\n若您尚未在 [MyIRMA](https://privacybydesign.foundation/myirma/) 中新增電子郵件地址，您還是可以這麼做，並且建議這麼做。\n\n在您的新行動裝置上，您可以重新安裝 IRMA 應用程式，重新填入您的資料。然後您就可以再次使用它了。",
-        "answer_3": "您的個人資料透過您的個人 PIN 碼保護。您的資料僅儲存在您行動裝置上的 IRMA 應用程式，並不會儲存在雲端。\n\n您 IRMA 應用程式中的資料由資料來源（發行者）（如地方政府）進行數位簽署。\n\n透過這種方式，讓您為人所知的網站或商店就可以透過加密的方式驗證您的資料是否屬實。\n個人資料的交換直接發生在您的行動裝置與網站之間。沒有其他人可以看到您在那裡交換資料，就算是 IRMA 背後的組織也不行。",
-        "answer_5": "每張 IRMA 中的卡片都有效期限制。有效期限取決於卡片上資料的種類以及這些資料的穩定程度。您的姓名與出生日期資料有效期限為五年，但您的地址資料僅有一年的有效期限。資料的來源（發行者）決定了這個有效期限。因此您 IRMA 應用程式中的卡片可能會過期。此時 IRMA 應用程式會警告您。\n\n您總是可以在沒有此警告的情況下，透過從來源重新載入來重新整理您的卡片。舉例來說，在您的 18 歲生日後，您可以從您的地方政府重新載入資料，如此可以證明您當下已經超過 18 歲。"
+        "answer_1_markdown": "使用 IRMA，您可以輕鬆登入並讓他人知道您。您只會揭露個人資料中必要的特點。舉例來說，為了觀看某部電影，您可能要揭露您已超過 16 歲，僅此而已。使用 IRMA，您也可以數位簽署文件。您只使用自身的相關特徵，作成某種形式的數位戳章。透過這種方式，IRMA 讓您可以用醫師、公民，或是其他身分的形式簽章。\n\n越來越多網站支援 IRMA 登入。舉例來說，荷蘭的醫師可以透過 [helder](https://www.helder.health/) 網站存取醫療檔案。IRMA 的支援正在增長，尤其是地方機關與衛生保健提供者這一塊領域。如果要了解其他可能性，您可以自己試試看 IRMA 的一些[示範](https://privacybydesign.foundation/demo-en/)。",
+        "answer_2_markdown": "如果您遺失了行動裝置，至少在您選用不易輕鬆破解的 PIN 碼情況下，沒有人能使用您的 IRMA 程式。\n\n您還可以獲得更強大的保護：安裝 IRMA 後，您可以選擇輸入電子郵件地址。若您有這麼做，就可以透過 [MyIRMA](https://privacybydesign.foundation/myirma/) 來完全封鎖您的 IRMA 程式。您舊有（遺失的）行動裝置上的 IRMA 程式將會完全無法使用。\n\n若您還尚未在 [MyIRMA](https://privacybydesign.foundation/myirma/) 加入電子郵件地址，您現在可以動手加入，而且建議您這麼做。\n\n在您新的行動裝置上，可以重新安裝 IRMA 程式，再重新填入您的資料。接著您又能再次使用了。",
+        "answer_3": "您的個人資料經由您的個人 PIN 碼保護。您的資料僅單獨儲存在您行動裝置的 IRMA 程式裡，並不會儲存到雲端。\n\n您 IRMA 程式裡的資料，則由資料來源（發行者）（如地方政府）進行數位簽署。\n\n藉由這種方法，想知道您是誰的網站或商店，能用加密方式驗證您的資料是否屬實。\n個人資料的交換，直接發生在您的行動裝置與網站之間。沒有其他人可以看到您在那裡交換了什麼資料，就算是 IRMA 背後的組織單位也不行。",
+        "answer_5": "IRMA 中的每張卡片都有效期限制。有效期限取決於卡片上的資料種類，以及這些資料的穩定程度。您的姓名與出生日期資料有效期限為五年，但您的地址資料僅有一年。資料的來源（發行者）決定了這個有效期限。因此您 IRMA 程式中的卡片可能會過期。此時 IRMA 程式會警告您。\n\n您可以隨時，也包括沒有此警告的情況下，從來源重新載入資料來重整更新您的卡片。舉例來說，在您的 18 歲生日後，您可以從您的地方政府重新載入資料，如此可以證明您當下已經超過 18 歲。"
     },
     "drawer": {
         "lock_wallet": "登出",
@@ -166,11 +166,11 @@
         "select": "選取",
         "alert_title": "網站不安全",
         "alert_button": "關閉",
-        "alert_message": "您要造訪的網站不安全。您無法在 IRMA 中檢視它。如果您仍想造訪此網站，請使用其他（瀏覽器）應用程式開啟。"
+        "alert_message": "您要造訪的網站不安全。您無法在 IRMA 中檢視它。如果您仍想造訪此網站，請使用其他（瀏覽器）程式開啟。"
     },
     "accessibility": {
         "irma_logo": "IRMA 標誌",
-        "slideshow": "第 {i} 張投影片，共 {n} 張投影片：{description}",
+        "slideshow": "第 {i} 張投影片，共 {n} 張：{description}",
         "menu": "選單",
         "back": "返回",
         "close": "關閉",
@@ -193,12 +193,12 @@
         "delete_confirm": "刪除卡片",
         "delete_deny": "取消",
         "delete": "刪除卡片",
-        "delete_content": "若您繼續，此卡片將會從您的 IRMA 應用程式中刪除。"
+        "delete_content": "若您繼續，此卡片將會從您的 IRMA 程式中刪除。"
     },
     "card_store": {
         "app_bar": "新增卡片",
         "choose": "選擇您想要新增的資料。",
-        "search": "搜尋……",
+        "search": "搜尋…",
         "personal_data": "個人資料",
         "category_other": "其他",
         "card_info": {
@@ -208,7 +208,7 @@
             "issuer": "來源",
             "purpose_question": "您能用這些資料做些什麼？",
             "content_question": "新增了哪些資料？",
-            "howto_question": "這如何運作？",
+            "howto_question": "這是如何運作？",
             "back_button": "取消",
             "get_button": "新增"
         }
@@ -225,9 +225,9 @@
             "delete_confirm": "是的，全部刪除",
             "delete_deny": "取消",
             "developer_mode": "開發者模式",
-            "enable_screenshots": "啟用螢幕截圖",
-            "enable_screenshots_note": "啟用後，應用程式不會在應用程式切換器中變為模糊。",
-            "delete_content": "若您繼續，您所有的卡片將會從您的 IRMA 應用程式中刪除。您想要稍後再次使用 IRMA 嗎？您必須先重新載入卡片。"
+            "enable_screenshots": "啟用螢幕擷圖",
+            "enable_screenshots_note": "啟用後，程式不會在程式切換器中以模糊顯示。",
+            "delete_content": "若您繼續，您所有的卡片將會從您的 IRMA 程式中刪除。您想要稍後再次使用 IRMA 嗎？屆時您必須先重新載入卡片。"
         },
         "start_qr": "啟動後自動開啟 QR 掃描器"
     },
@@ -268,18 +268,18 @@
     "qr_scanner": {
         "instruction": {
             "title": "開始掃描",
-            "semantic": "開始掃描！將您行動裝置的相機對準 IRMA 的 QR code。",
-            "message": "將您行動裝置的相機對準 IRMA 的 QR code"
+            "semantic": "開始掃描！請將您行動裝置的相機對準 IRMA 的 QR 圖碼。",
+            "message": "將您行動裝置的相機對準 IRMA 的 QR 圖碼"
         },
         "success": {
             "title": "成功",
-            "message": "已掃描 QR code",
-            "semantic": "成功！已掃描 QR code。"
+            "message": "已掃描 QR 圖碼",
+            "semantic": "成功！已掃描 QR 圖碼。"
         },
         "error": {
             "title": "抱歉",
-            "message": "這不是 IRMA QR code",
-            "semantic": "抱歉！這不是 IRMA QR code。"
+            "message": "這不是 IRMA QR 圖碼",
+            "semantic": "抱歉！這不是 IRMA QR 圖碼。"
         }
     },
     "pin_common": {
@@ -306,13 +306,13 @@
         },
         "invalid_title": "PIN 碼錯誤",
         "invalid_pin": {
-            "attempts-1": "此 PIN 碼錯誤。在 IRMA 應用程式暫時封鎖前，您還有 {attemps} 次機會嘗試。",
-            "attempts-0": "此 PIN 碼錯誤。在 IRMA 應用程式暫時封鎖前，您還有 {attemps} 次機會嘗試。",
-            "attempts-2": "此 PIN 碼錯誤。在 IRMA 應用程式暫時封鎖前，您還有 {attemps} 次機會嘗試。"
+            "attempts-1": "此 PIN 碼錯誤。在 IRMA 程式暫時封鎖前，您還有 {attemps} 次機會嘗試。",
+            "attempts-0": "此 PIN 碼錯誤。在 IRMA 程式暫時封鎖前，您還有 {attemps} 次機會嘗試。",
+            "attempts-2": "此 PIN 碼錯誤。在 IRMA 程式暫時封鎖前，您還有 {attemps} 次機會嘗試。"
         },
         "invalid_close": "再試一次",
         "blocked_title": "已封鎖",
-        "blocked_pin": "您的 IRMA 應用程式已因 {blocked} 而被封鎖。請稍後再試。",
+        "blocked_pin": "您的 IRMA 程式已被封鎖 {blocked}。請稍後再試。",
         "blocked_close": "再試一次",
         "done": "繼續",
         "view": "顯示 PIN 碼",
@@ -325,12 +325,12 @@
         "title": "登入"
     },
     "session_pin": {
-        "explanation": "為了您的安全，IRMA 應用程式會定期詢問您的 PIN 碼。",
+        "explanation": "為了您的安全，IRMA 程式會定期詢問您的 PIN 碼。",
         "subtitle": "重新輸入您的 PIN 碼以繼續。"
     },
     "error": {
         "title": "出了點問題",
-        "blocked_title": "已封鎖應用程式",
+        "blocked_title": "程式已封鎖",
         "button_ok": "確定",
         "button_send_to_irma": "傳送給 IRMA 的技術團隊",
         "button_show_error": "顯示技術細節",
@@ -343,13 +343,13 @@
             "expired": "工作階段逾期。請重新開始。",
             "pairing_rejected": "工作階段被拒絕。請重新開始。",
             "no_internet": "出了點問題。IRMA 需要網際網路。\n\n請檢查您的網際網路連線。",
-            "blocked": "您的 IRMA 已被遠端封鎖。\n\n這可能是透過 MyIRMA 對您的應用程式進行的，或是因為您在此裝置上超過一年未使用 IRMA。若您想要繼續在此裝置上使用 IRMA，您必須重新開始。"
+            "blocked": "您的 IRMA 程式已被遠端封鎖。\n\n這可能是由 MyIRMA 對您的程式所作，或是您在此裝置上已超過一年未使用 IRMA。若您想要繼續在此裝置上使用 IRMA，您必須重新開始。"
         },
         "button_reset": "重新開始"
     },
     "wallet": {
         "title": "IRMA 卡片",
-        "scan_qr_code": "掃描 QR code",
+        "scan_qr_code": "掃描 QR 圖碼",
         "open_menu": "開啟選單",
         "close_menu": "關閉選單",
         "toggle": "變更顯示",
@@ -372,7 +372,7 @@
         },
         "add_data": "新增更多資料",
         "lock": "登出",
-        "cannot_be_refreshed": "這張卡片不能再重新整理了。"
+        "cannot_be_refreshed": "這張卡片不能再重新整理更新了。"
     },
     "history": {
         "title": "歷史",
@@ -380,10 +380,10 @@
         "type": {
             "removal": {
                 "subtitle": "刪除的卡片",
-                "data-0": "已刪除 {data} 卡片",
-                "data-1": "已刪除 {data} 卡片",
+                "data-0": "{data} 卡片已刪除",
+                "data-1": "{data} 卡片已刪除",
                 "header": "卡片刪除於",
-                "data-2": "已刪除 {data} 卡片"
+                "data-2": "{data} 卡片已刪除"
             },
             "issuing": {
                 "header": "卡片發行者為",
@@ -402,20 +402,20 @@
             },
             "siging_header": "簽署的訊息",
             "signing": {
-                "header": "簽署訊息的請求來自",
+                "header": "簽署訊息的要求出自",
                 "subtitle": "簽署的訊息",
-                "data-0": "使用 {data} 簽署的請求來自",
-                "data-1": "使用 {data} 簽署的請求來自",
-                "data-2": "使用 {data} 簽署的請求來自",
+                "data-0": "使用 {data} 簽署的要求出自",
+                "data-1": "使用 {data} 簽署的要求出自",
+                "data-2": "使用 {data} 簽署的要求出自",
                 "subtitle_used_data": "使用個人資料簽署的訊息"
             }
         }
     },
     "issuance": {
         "title": "新增卡片",
-        "header-0": "您想要新增此卡片到您的 IRMA 應用程式嗎？",
-        "header-2": "您想要新增這些卡片到您的 IRMA 應用程式嗎？",
-        "header-1": "您想要新增此卡片到您的 IRMA 應用程式嗎？"
+        "header-0": "您想要新增此卡片到您的 IRMA 程式嗎？",
+        "header-2": "您想要新增這些卡片到您的 IRMA 程式嗎？",
+        "header-1": "您想要新增此卡片到您的 IRMA 程式嗎？"
     },
     "session": {
         "navigation_bar": {
@@ -429,36 +429,36 @@
             "title": "額外安全性檢查",
             "explanation": "請在網站上輸入以下代碼。",
             "message_title": "配對代碼",
-            "message_body_markdown": "配對代碼確保以下步驟只能在*您的* IRMA 應用程式中完成。"
+            "message_body_markdown": "配對代碼可確保以下步驟只會在 *您的* IRMA 程式中完成。"
         },
         "unknown_session_type": {
             "title": "已取消",
-            "explanation": "應用程式不支援您啟動的 IRMA 工作階段。"
+            "explanation": "程式不支援您啟動的 IRMA 工作階段。"
         }
     },
     "disclosure": {
-        "title": "讓自己為人所知",
+        "title": "讓他人知道您",
         "disclosure_header": "您是否要向 {otherParty} 揭露以下資料？",
         "signing_header": "{otherParty} 要求您簽署訊息",
-        "signing_call_header": "{otherParty} 要求您簽署訊息並打電話給 {phoneNumber}",
+        "signing_call_header": "{otherParty} 要求您簽署訊息，並打電話給 {phoneNumber}",
         "issuer": "發行者",
         "logo_semantic": "{otherParty} 的標誌",
         "credential_name": "卡片",
         "choices": "{choices} 選擇",
-        "next": "下一個選擇",
-        "previous": "前一個選擇",
+        "next": "下個選擇",
+        "previous": "上個選擇",
         "not_present": "這些資料尚未新增至 IRMA。",
-        "you_have": "您有：",
-        "requested_for": "請求如下：",
-        "card_count": "第 {i}，共 {total}",
-        "among_others": "其他事項中",
-        "add_additional": "想要顯示不同的資訊嗎？新增額外的「{credential}」卡片。",
-        "disclosure_call_header": "您是否要將以下資料揭露給 {otherParty} 並打電話給 {phoneNumber}？",
-        "unsatisfiable_header": "您的 IRMA 應用程式中還沒有 {otherParty} 要求的所有資料。",
-        "not_present_have_other": "請求的資料與您已有的資料不相符。",
+        "you_have": "您有的是：",
+        "requested_for": "要求的有：",
+        "card_count": "{i} 項，共 {total} 項",
+        "among_others": "以及其他",
+        "add_additional": "想要顯示不同的資訊嗎？新增另外的「{credential}」卡片。",
+        "disclosure_call_header": "您是否要向 {otherParty} 揭露以下資料，並打電話給 {phoneNumber}？",
+        "unsatisfiable_header": "您的 IRMA 程式中還沒有 {otherParty} 要求的全部資料。",
+        "not_present_have_other": "要求的資料與您已有的資料不相符。",
         "expired": "這些資料已經過期。",
         "revoked": "這些資料已被撤銷。",
-        "not_revokable": "這些資料必須先重新整理。",
+        "not_revokable": "這些資料必須先重新整理更新。",
         "obtain": "新增",
         "refresh": "重新整理",
         "nothing_selected": "未選取",
@@ -468,7 +468,7 @@
             "dismiss": "確定",
             "dismiss-remember": "不再顯示"
         },
-        "redirect": "您正被重新導向回網頁……",
+        "redirect": "您正被重新導回網頁…",
         "feedback": {
             "header": {
                 "success": "成功",
@@ -478,7 +478,7 @@
             "text": {
                 "success": "您的資料已揭露給 {otherParty}",
                 "canceled": "您的資料並未揭露給 {otherParty}",
-                "notSatisfiable": "因為 {otherParty} 要求過期的卡片，因此您的資料並未揭露。請聯絡對方。"
+                "notSatisfiable": "因為 {otherParty} 要求過期的卡片，您的資料並未揭露。請聯絡對方。"
             }
         },
         "call_info": {
@@ -488,34 +488,34 @@
             "success_message_ios_markdown": "您的資料現在已揭露給 **{otherParty}**。",
             "continue": "1. 選擇繼續",
             "continue_ios": "選擇繼續來通話",
-            "continue_message": "您的電話應用程式現在會自動開啟。電話號碼會預先填入，然後是連結代號。",
-            "continue_message_ios": "將會出現彈出式視窗，其中會有撥打電話的選項。電話號碼會預先填入，然後是連結代號。若您選擇通話，您會聽到幾聲嗶聲，然後接通。",
-            "call": "2. 輕點您電話應用程式中的通話按鈕",
+            "continue_message": "您的電話程式現在會自動開啟。電話號碼會預先填入，接著是連結代號。",
+            "continue_message_ios": "將會彈出視窗，上面有撥打電話的選項。電話號碼會預先填入，接著是連結代號。若您選擇通話，您會聽到幾聲嗶聲，然後接通。",
+            "call": "2. 輕點您電話程式中的通話按鈕",
             "call_message": "您會聽到幾聲嗶聲，然後接通。",
             "continue_button": "繼續"
         }
     },
     "ui": {
-        "loading": "正在載入……"
+        "loading": "正在載入…"
     },
     "reset_pin": {
         "title": "遺失 PIN 碼",
         "existing_data_title": "我的舊卡片會怎樣？",
         "back": "取消",
         "reset": "重新開始",
-        "existing_data_removed": "您 IRMA 應用程式中的所有卡片都會被刪除。",
-        "message": "遺失 PIN 碼了嗎？很抱歉，IRMA 組織不會記錄您的 PIN 碼。若您想要繼續使用 IRMA，您必須輸入新的 PIN 碼並重新載入所有資料。",
-        "existing_data_message": "您的舊卡片將會從您的手機中刪除。若您願意，您可以蒐集新卡片並重新開始使用 IRMA。"
+        "existing_data_removed": "您 IRMA 程式中的所有卡片都會被刪除。",
+        "message": "遺失 PIN 碼了嗎？很抱歉，IRMA 組織不會記錄您的 PIN 碼。若您想要繼續使用 IRMA，您必須輸入新的 PIN 碼，並重新載入所有資料。",
+        "existing_data_message": "您的舊卡片將會從您的手機中刪除。若您願意，您可以蒐集新卡片，並重新開始使用 IRMA。"
     },
     "arrow_back": {
         "info_no_success": "已取消。",
         "info_success-0": "完成，已揭露您的資料。",
         "info_success-1": "完成，已新增卡片。",
         "info_success-2": "完成，已新增卡片。",
-        "safari": "輕點左上角的應用程式名稱（如 Safari、Chrome、Firefox）以回到您原先所在的應用程式。"
+        "safari": "輕點左上角的應用程式名稱（如 Safari、Chrome、Firefox）回到您原先所在的應用程式。"
     },
     "update": {
-        "required": "為了繼續使用 IRMA，您必須更新應用程式",
+        "required": "為了繼續使用 IRMA，您必須更新程式",
         "doupdate": "更新"
     },
     "action_feedback": {
@@ -523,8 +523,8 @@
     },
     "device_rooted_warning": {
         "title": "裝置不安全",
-        "button_accept_risk": "我接受風險",
-        "body": "您裝置上的作業系統似乎被修改過。因此無法保證您資料的安全性。"
+        "button_accept_risk": "我願意接受風險",
+        "body": "您裝置上的作業系統似乎被修改過，因此無法保證您資料的安全性。"
     },
     "issue_wizard": {
         "back": "取消",
