@@ -38,7 +38,7 @@ class PrototypesApp extends StatelessWidget {
               theme: IrmaTheme.of(context).themeData,
               localizationsDelegates: AppState.defaultLocalizationsDelegates(),
               supportedLocales: AppState.defaultSupportedLocales(),
-              locale: const Locale('nl', 'NL'),
+              locale: const Locale('zh', 'Hant'),
               initialRoute: PrototypesScreen.routeName,
               routes: routes,
             );

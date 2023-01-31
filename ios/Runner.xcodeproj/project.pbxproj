@@ -56,6 +56,8 @@
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		28A3F9E027D0AC6700085168 /* AESKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESKey.swift; sourceTree = "<group>"; };
 		28A3F9E227D0AC9100085168 /* TEE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEE.swift; sourceTree = "<group>"; };
+		2FBC7B1A29644CF30005A855 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		2FBC7B1B29644CF70005A855 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		483D768C23C76F5E007C98F0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
 		483D768D23C76F5E007C98F0 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -273,6 +275,7 @@
 				en,
 				Base,
 				nl,
+				"zh-Hant",
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
@@ -489,6 +492,7 @@
 			children = (
 				97C146FB1CF9000F007C117D /* Base */,
 				483D768C23C76F5E007C98F0 /* nl */,
+				2FBC7B1A29644CF30005A855 /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -498,6 +502,7 @@
 			children = (
 				97C147001CF9000F007C117D /* Base */,
 				483D768D23C76F5E007C98F0 /* nl */,
+				2FBC7B1B29644CF70005A855 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
