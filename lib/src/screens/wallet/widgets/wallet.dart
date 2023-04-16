@@ -4,7 +4,6 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:flutter/animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -283,7 +282,7 @@ class WalletState extends State<Wallet> with TickerProviderStateMixin {
                 height: _walletHeight,
                 width: _walletWidth,
                 child: Stack(
-                  overflow: Overflow.visible,
+                  clipBehavior: Clip.none,
                   fit: StackFit.expand,
                   children: [
                     /// Wallet background
@@ -448,7 +447,7 @@ class WalletState extends State<Wallet> with TickerProviderStateMixin {
       return SingleChildScrollView(
         padding: EdgeInsets.only(top: IrmaTheme.of(context).smallSpacing),
         child: Stack(
-          overflow: Overflow.visible,
+          clipBehavior: Clip.none,
           children: [
             /// Fixed size element must be in stack to prevent the scroll view from growing to infinite sizes.
             Container(
@@ -467,7 +466,7 @@ class WalletState extends State<Wallet> with TickerProviderStateMixin {
           maxHeight: _walletHeight,
         ),
         child: Stack(
-          overflow: Overflow.visible,
+          clipBehavior: Clip.none,
           children: rendered,
         ),
       );
