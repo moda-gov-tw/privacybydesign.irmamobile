@@ -478,7 +478,7 @@
             "text": {
                 "success": "您的資料已揭露給 {otherParty}",
                 "canceled": "您的資料並未揭露給 {otherParty}",
-                "notSatisfiable": "因為 {otherParty} 要求過期的卡片，您的資料並未揭露。請聯絡對方。"
+                "notSatisfiable": "您的資料並未揭露，因為 {otherParty} 要求舊式的卡片，敬請聯絡當事人。"
             }
         },
         "call_info": {
