@@ -1,615 +1,615 @@
 {
-  "accessibility": {
-    "irma_logo": "",
-    "slideshow": "",
-    "menu": "",
-    "back": "",
-    "close": "",
-    "next": "",
-    "alert": "",
-    "previous": "",
-    "expanded": "",
-    "collapsed": "",
-    "unfold": "",
-    "update": "",
-    "remove": "",
-    "expand": "",
-    "refresh": ""
-  },
-  "action_feedback": {
-    "ok": ""
-  },
-  "activity": {
-    "data_deleted": "",
-    "data_deleted_semantics": "",
-    "data_received": "",
-    "data_received_semantics": "",
-    "data_shared": "",
-    "data_shared_semantics": "",
-    "signed_message": "",
-    "message_signed": "",
-    "signed_message_semantics": "",
-    "shared_with": "",
-    "shared_data": "",
-    "received_data": "",
-    "deleted_data": "",
-    "empty_placeholder": ""
-  },
-  "arrow_back": {
-    "no_success": "",
-    "disclosure_success": "",
-    "issuance_success": "",
-    "signature_success": "",
-    "safari": ""
-  },
-  "change_pin": {
-    "dialog": {
-      "title": "",
-      "body": "",
-      "ok": "",
-      "cancel": ""
+    "accessibility": {
+        "irma_logo": "Yivi 標誌",
+        "slideshow": "第 {i} 張投影片，共 {n} 張：{description}",
+        "menu": "選單",
+        "back": "返回",
+        "close": "關閉",
+        "next": "下一步",
+        "alert": "警報",
+        "previous": "上一步",
+        "expanded": "展開",
+        "collapsed": "折疊",
+        "unfold": "展開",
+        "update": "更新",
+        "remove": "移除",
+        "expand": "展開",
+        "refresh": "重新整理"
     },
-    "toast": "",
-    "enter_pin": {
-      "instruction": "",
-      "error_title": "",
-      "error": "",
-      "error_action": ""
+    "action_feedback": {
+        "ok": "確定"
+    },
+    "activity": {
+        "data_deleted": "資料已刪除",
+        "data_deleted_semantics": "{issuerName} 的資料已於 {date} 刪除",
+        "data_received": "已接收資料",
+        "data_received_semantics": "於 {date} 自 {otherParty} 接收到的資料",
+        "data_shared": "已分享資料",
+        "data_shared_semantics": "於 {date} 與 {otherParty} 分享的資料",
+        "signed_message": "簽署的訊息",
+        "message_signed": "簽署的訊息",
+        "signed_message_semantics": "於 {date} 來自 {otherParty} 的簽署訊息",
+        "shared_with": "分享對象",
+        "shared_data": "已分享資料",
+        "received_data": "已接收資料",
+        "deleted_data": "已刪除資料",
+        "empty_placeholder": "目前沒有已記錄活動"
+    },
+    "arrow_back": {
+        "no_success": "已取消",
+        "disclosure_success": "成功，您的資料已分享",
+        "issuance_success": "成功，資料已新增",
+        "signature_success": "成功，訊息已簽署",
+        "safari": "輕點左上角的應用程式名稱（如 Safari、Chrome、Firefox）回到上一個應用程式。"
+    },
+    "change_pin": {
+        "dialog": {
+            "title": "您確定嗎？",
+            "body": "您確定要重設目前的 PIN 碼嗎？",
+            "ok": "變更",
+            "cancel": "取消"
+        },
+        "toast": "成功！您的新 PIN 碼已儲存",
+        "enter_pin": {
+            "instruction": "輸入您目前的 PIN 碼",
+            "error_title": "PIN 碼錯誤",
+            "error": "輸入您目前的 PIN 碼",
+            "error_action": "確定"
+        },
+        "confirm_pin": {
+            "instruction": "請再輸入您的新 PIN 碼"
+        }
+    },
+    "choose_pin": {
+        "next": "下一步",
+        "instruction": {
+            "long": "選擇 PIN 碼",
+            "short": "選擇 5 位數的 PIN 碼"
+        },
+        "switch_pin_size": {
+            "long": "想要更長的 PIN 碼嗎？",
+            "short": "想要較短的 PIN 碼嗎？"
+        }
     },
     "confirm_pin": {
-      "instruction": ""
-    }
-  },
-  "choose_pin": {
-    "next": "",
-    "instruction": {
-      "long": "",
-      "short": ""
+        "error": {
+            "title": "PIN 碼輸入錯誤",
+            "body": "PIN 碼不相符。請選擇新的 PIN 碼然後再試一次。",
+            "action": "確定"
+        }
     },
-    "switch_pin_size": {
-      "long": "",
-      "short": ""
-    }
-  },
-  "confirm_pin": {
+    "credential": {
+        "no_data": "沒有資料",
+        "valid_until": "有效期至：{date}",
+        "expires_on": "於 {date} 到期",
+        "expired_on": "於 {date} 過期",
+        "date_at_time": "{date} 的 {time}",
+        "issued_by": "發行單位：",
+        "options": {
+            "title": "選項",
+            "reobtain": "重新取得",
+            "delete": "刪除資料",
+            "confirm_delete": "您確定要刪除此資料嗎？",
+            "delete_success": "成功！資料已刪除。"
+        },
+        "about_to_expire": "即將到期",
+        "expired": "已到期",
+        "revoked": "已撤銷",
+        "not_obtainable": "無法獲得此資料。請聯繫 {issuerName} 來獲得此資料。"
+    },
+    "data": {
+        "tab": {
+            "title": "我的資料",
+            "obtain_data": "擷取我的個人資料"
+        },
+        "detail": {
+            "title": "聯絡資訊"
+        },
+        "add": {
+            "title": "新增資料",
+            "choose": "選擇您想要新增的資料。",
+            "details": {
+                "title": "新增資料",
+                "purpose_question": "我能用這些資料做些什麼？",
+                "content_question": "我該擷取哪個資料？",
+                "howto_question": "這是如何運作？",
+                "back_button": "取消",
+                "get_button": "新增",
+                "disclosure_info_markdown": "**請注意：** 您將擷取所有可用資料，但您只會分享請求當中需要的資料。",
+                "obtain": "將 {credential} 新增至我的 Yivi 應用程式"
+            }
+        },
+        "category_other": "其他",
+        "category_personal": "個人"
+    },
+    "disclosure": {
+        "title": "資料要求",
+        "disclosure_header": "您是否要向 {otherParty} 揭露以下資料？",
+        "disclosure_call_header": "您是否要向 {otherParty} 揭露以下資料，並打電話給 {phoneNumber}？",
+        "signing_header": "{otherParty} 要求您簽署訊息",
+        "signing_call_header": "{otherParty} 要求您簽署訊息，並打電話給 {phoneNumber}",
+        "unsatisfiable_header": "您的 Yivi 應用程式中還沒有 {otherParty} 要求的全部資料。",
+        "issuer": "發行單位",
+        "logo_semantic": "{otherParty} 的標誌",
+        "choices": "{choices} 選擇",
+        "next": "下個選擇",
+        "previous": "上個選擇",
+        "not_present": "這些資料尚未新增至 Yivi。",
+        "not_present_have_other": "要求的資料與您在 Yivi 當中可用的資料不相符。",
+        "you_have": "您有的：",
+        "requested_for": "要求的是：",
+        "card_count": "{i} 項，共 {total} 項",
+        "among_others": "以及其他",
+        "add_additional": "想要顯示不同的資訊嗎？新增另外的「{credential}」資料。",
+        "expired": "這資料已經過期。",
+        "revoked": "這資料已被撤銷。",
+        "not_revokable": "這資料必須先重新整理更新。",
+        "obtain": "新增",
+        "refresh": "重新整理",
+        "nothing_selected": "未選取",
+        "redirect": "您正被重新導回網頁…",
+        "feedback": {
+            "header": {
+                "success": "成功",
+                "canceled": "已取消",
+                "not_satisfiable": "已取消"
+            },
+            "text": {
+                "success": "您的資料已揭露給 {otherParty}",
+                "success_signature": "您已經簽署 {otherParty} 的要求",
+                "canceled": "您的資料並未揭露給 {otherParty}",
+                "canceled_signature": "您並未簽署 {otherParty} 的要求",
+                "not_satisfiable": "您的資料並未揭露，因為 {otherParty} 要求過期資料，您無法改變這點。敬請聯絡當事人。",
+                "not_satisfiable_signature": "{otherParty} 要求您使用過時資料來簽署，您無法改變這點。敬請聯絡當事人。"
+            }
+        }
+    },
+    "disclosure_permission": {
+        "title": "資料要求",
+        "next": "下一個",
+        "change_choice": "改變選擇",
+        "choose": "做出選擇",
+        "obtain_new": "取得新資料",
+        "next_step": "下一步",
+        "obtain_data": "取得資料",
+        "close": "關閉",
+        "optional_data": "非必要資料",
+        "add_optional_data": "新增非必要資料",
+        "no_data_selected": "未選取資料",
+        "introduction": {
+            "title": "採取行動",
+            "header": "分享您的資料",
+            "explanation": "蒐集必要資料，與要求方分享。",
+            "continue": "採取行動"
+        },
+        "issue_wizard": {
+            "title": "蒐集資料",
+            "explanation_incomplete": "一步步取得我的資料然後與要求方分享",
+            "explanation_complete": "已經新增所有必要資料"
+        },
+        "previously_added": {
+            "title": "驗證資料",
+            "explanation": "此資料已經新增至您的應用程式中。請驗證該資料是否依舊正確。"
+        },
+        "overview": {
+            "title": "分享我的資料",
+            "sign": "這是您簽署的訊息：",
+            "explanation": "與 {requestorName} 分享我的資料",
+            "confirm": "分享資料",
+            "confirm_sign": "簽署與分享"
+        },
+        "confirm_dialog": {
+            "title": "分享資料",
+            "title_signature": "簽署與分享資料",
+            "explanation": "您即將與 {requestorName} 分享資料。輕點「分享」以繼續",
+            "explanation_signature": "您即將簽署 {requestorName} 的訊息。輕點「簽署與分享」以繼續",
+            "confirm": "分享",
+            "confirm_signature": "簽署與分享",
+            "decline": "不分享",
+            "decline_signature": "不簽署"
+        },
+        "confirm_close_dialog": {
+            "title": "取消資料分享",
+            "explanation": "您確定不要分享資料嗎？",
+            "confirm": "關閉",
+            "decline": "繼續"
+        },
+        "wrong_credentials_added": {
+            "title": "錯誤",
+            "explanation": "資料已新增至應用程式，但不符合要求標準。請取得正確的資料。",
+            "dismiss_action": "確定"
+        },
+        "call": {
+            "title": "透過 Yivi 通話",
+            "disclosure_explanation": "您要將資料揭露給 {otherParty} 並打電話給 {phoneNumber}？",
+            "disclosure_success": "已與 {otherParty} 分享資料",
+            "explanation_header_ios": "選擇下一位通話對象",
+            "explanation_ios": "將會彈出視窗，上面有撥打電話的選項。電話號碼會預先填入，接著是連結代號。若您選擇通話，您會聽到幾聲嗶聲，然後接通。",
+            "explanation_header_android": "1. 選擇下一步",
+            "explanation_android": "您手機應用程式現在會自動開啟。電話號碼會預先填入，接著是連結代號。",
+            "extra_explanation_header_android": "2. 輕點您電話程式中的通話按鈕",
+            "extra_explanation_android": "您會聽到幾聲嗶聲，然後接通。"
+        }
+    },
+    "enrollment": {
+        "introduction": {
+            "step_1": {
+                "title": "Yivi 是您數位身分的應用程式",
+                "explanation": "您的本名、出生日期、住址、社會安全碼和其他資料等，全都安全地儲存在您的 Yivi 程式中"
+            },
+            "step_2": {
+                "title": "有了 Yivi，您就掌握了自己的資料",
+                "explanation": "簡單、安全、快速。您分享的資料與對象都在您掌控之中。"
+            },
+            "step_3": {
+                "title": "用手機安全操作",
+                "explanation": "只有您可以存取您手機上的資料。其他人都無法取得您的交易紀錄，就連 Yivi 也沒辦法。"
+            }
+        },
+        "confirm_pin": {
+            "instruction": "再次輸入您的 PIN 碼"
+        },
+        "email": {
+            "provide": {
+                "title": "新增電子郵件地址",
+                "header": "將您的電子郵件地址與您的 Yivi 程式連結",
+                "explanation": "如果您的手機掉了或被偷走，電子郵件地址讓您可以遠端停用您的 Yivi 程式",
+                "input": {
+                    "label": "電子郵件地址",
+                    "hint": "填寫",
+                    "invalid": "無效的電子郵件地址"
+                },
+                "confirm_skip_dialog": {
+                    "title": "確定嗎？",
+                    "explanation": "新增電子郵件地址將能提高安全性",
+                    "decline": "輸入電子郵件地址"
+                }
+            },
+            "confirm": {
+                "title": "確認您的電子郵件地址",
+                "header": "我們的電子郵件已經傳送至：",
+                "explanation": "電子郵件傳送需要一些時間。若您未在收件匣中看到郵件，請檢查您的垃圾郵件資料夾。",
+                "explanation_extra_markdown": "您已收到來自 **noreply@yivi.app** 的電子郵件。請開啟該郵件中的連結，將您的電子郵件與您的 Yivi 程式連結。"
+            }
+        },
+        "terms_and_conditions": {
+            "title": "我們的價值",
+            "explanation": "有了 Yivi，您能重新掌握您的線上資料，並且能保護您的網路隱私。",
+            "point_1": "您決定要儲存以及分享的資料。",
+            "point_2": "您的資料只會安全地儲存在您的手機上，不會儲存在其他地方。",
+            "point_3": "沒有人能看到您的資料或交易紀錄，就連 Yivi 也沒辦法！",
+            "accept_markdown": "是，我接受 [條款與條件](https://www.yivi.app/en/terms-and-conditions)"
+        },
+        "error_reporting": {
+            "accept": {
+                "share_errors": "分享錯誤訊息與程式健康",
+                "with_yivi": "使用 Yivi"
+            },
+            "dialog": {
+                "title": "錯誤與程式健康報告",
+                "explanation": "透過啟用錯誤報告，您能幫助我們提升使用者體驗。此選項也讓您的應用程式可以定期傳送應用程式健康訊息給我們。當然這一切都不需要存取您的個人資訊或交易紀錄。"
+            }
+        },
+        "submit": {
+            "title": "正在登入",
+            "progress_enrollment": "歡迎！請稍待片刻，我們正在創立您的帳號。"
+        }
+    },
     "error": {
-      "title": "",
-      "body": "",
-      "action": ""
-    }
-  },
-  "credential": {
-    "no_data": "",
-    "valid_until": "",
-    "expires_on": "",
-    "expired_on": "",
-    "date_at_time": "",
-    "issued_by": "",
-    "options": {
-      "title": "",
-      "reobtain": "",
-      "delete": "",
-      "confirm_delete": "",
-      "delete_success": ""
+        "title": "抱歉，出了點問題",
+        "blocked_title": "程式已被封鎖",
+        "button_ok": "確定",
+        "button_send_to_irma": "將此訊息傳送給 Yivi",
+        "button_show_error": "顯示技術細節",
+        "button_retry": "請再試一次",
+        "button_back": "返回",
+        "button_reset": "重新開始",
+        "details_title": "錯誤訊息",
+        "report": "若再次發生這種狀況，請通知 Yivi 團隊。",
+        "types": {
+            "general": "出了點問題。",
+            "blocked": "您的 IRMA 程式已被遠端封鎖。這可能是由 MyYivi 對您的程式所作，或是您在此裝置上已超過一年未使用 Yivi。若您想要繼續在此裝置上使用 Yivi，您必須重新開始。",
+            "expired": "工作階段逾期。請重新開始。",
+            "pairing_rejected": "工作階段被拒絕。請重新開始。",
+            "no_internet": "請確認您的裝置能正常連上網路。"
+        }
     },
-    "about_to_expire": "",
-    "expired": "",
-    "revoked": "",
-    "not_obtainable": ""
-  },
-  "data": {
-    "tab": {
-      "title": "",
-      "obtain_data": ""
+    "help": {
+        "about_irma": "關於 Yivi",
+        "ask": "詢問問題",
+        "contact": "support@yivi.app",
+        "device": "行動裝置",
+        "email": "傳送電子郵件",
+        "faq": "常見問題",
+        "login": "登入",
+        "mail_error": "抱歉，我們無法開啟您的郵件程式",
+        "mail_error_button": "確定",
+        "mail_error_title": "抱歉",
+        "mail_subject": "Yivi 程式協助",
+        "question_1": "我能用 Yivi 做什麼？",
+        "answer_1_markdown": "Yivi 是一個安全、保護使用者隱私的免費手機程式。Yivi 的功用就如同具備個人資料的電子錢包。您可以使用 Yivi 登入網路服務或是證明您的身份，而且僅分享最低所需的個資。這是因為 Yivi 讓您可以選擇您要儲存與分享的資料以及對象。無論何時，一切都由您掌握。\n\n您不用記住帳戶資訊與冗長的密碼，只需要記住您的 Yivi PIN 碼。不管是在網路上購物或是預約看診，在分享資料時，您只會分享必須的資料，僅此而已。\n\n想要在網路上購票嗎？有了 Yivi，您可以輕鬆證明自己已經超過 18 歲而且不用分享其他個資，讓您在過程中可以保護自己隱私。您也可以使用 Yivi 進行數位簽章，將您的特性當成您的簽名。您可以以市民、醫生或是其他身份來簽署。請參閱目前的 Yivi 概覽，檢視目前正在使用 Yivi 的組織清單。",
+        "question_2": "Yivi 為何而生？",
+        "answer_2": "Yivi 的任務是要讓人們可以重新掌控他們在網路上的個資。您儲存什麼資料？您分享什麼資料？您與誰分享這些資料？Yivi 讓您可以自己決定。有了我們的程式，您可以決定其他人可以看到您的哪些資料。您可以從手機上將這些資料分享給要求方，其他人不會參與這個過程，就連 Yivi 也不會。\n\n所有資料都安全地存放在您的手機上，有加密以及 PIN 碼保護。您的個資不會被放到集中式資料或雲端硬碟上。手機丟了？別擔心。您可以遠端封鎖您的 Yivi 程式，預防他人在您不知情之下使用您的資料。\n\n販售您的個資永遠都不會是我們的獲利模式。Yivi 依舊是免費軟體，這背後有什麼蹊蹺嗎？當然沒有！只有使用 Yivi 的組織需要付費，讓您可以繼續免費使用 Yivi。\n",
+        "question_3": "誰是 Yivi 程式的幕後推手？",
+        "answer_3_markdown": "SIDN 是在幕後推動 Yivi 的非營利組織。這個名字對您可能有點陌生，但您可能知道網址結尾是「.nl」的網站。每次您造訪這些網站，SIDN 確保您會連接至正確的網站。SIDN 這樣做已經超過 25 年，每天大概 20 億次。也因為如此豐富的經驗，他們也能確保 Yivi 隨時隨地都能順暢與安全運作。",
+        "question_4": "如何使用 Yivi 登入行動版網站？",
+        "answer_4": {
+            "step_1": "在您的行動裝置上開啟網站，並選取 Yivi 登入。",
+            "step_2": "Yivi 程式自動開啟。\n接下來輸入您的 PIN 碼。",
+            "step_3": "同意（或不同意）揭露您的個人資料。",
+            "step_4": "Yivi 會顯示您已經登入。\n您現在可以使用網站了。"
+        },
+        "question_5": "如何在電腦上使用 Yivi 登入網站？",
+        "answer_5": {
+            "step_1": "在您的電腦上開啟網站，並選取 Yivi 登入。",
+            "step_2": "在您的行動裝置裡開啟 Yivi 程式，並輸入您的 PIN 碼。",
+            "step_3": "在 Yivi 中開啟 QR 圖碼掃描器。掃描電腦畫面中的 QR 圖碼。",
+            "step_4": "同意（或不同意）揭露您的個人資料。",
+            "step_5": "Yivi 會顯示您已經登入。\n您現在可以使用網站了。"
+        },
+        "question_6": "行動裝置遺失了怎麼辦？",
+        "answer_6_markdown": "如果您弄丟手機，在您 PIN 碼的保護下，沒人可以使用您的 Yivi 程式。想要進一步提升安全性？在安裝過程中，您可以新增復原電子郵件地址，讓您可以遠端封鎖 Yivi 程式，確保就算手機遺失資料隱私也不會受到影響。\n\n還沒新增復原電子郵件地址嗎？現在就到 MijnYivi 新增電子郵件地址。 ",
+        "question_7": "我可以在多個行動裝置上安裝 Yivi 嗎？",
+        "answer_7": "是的，我們也建議使用者這樣做！在每台行動裝置上安裝 Yivi 程式，並在其中填入您個人資料。若您遺失其中一個裝置，還有另一台裝置備用。",
+        "question_8": "我的 Yivi 資料儲存在哪裡？",
+        "answer_8": "Yivi 程式當中的資料都只有儲存在裝置本身，沒有集中化資料（或是雲端）儲存方式。這代表只有您可以存取您的資料。您掌握並且可以決定是否與網路組織分享您的資料。如果您在 Yivi 程式上刪除了資料，這些資料就永遠消失了。您可完全掌握您的資料。只有您可以決定要分享的資料以及分享對象。",
+        "question_9": "是什麼讓 Yivi 便於保有隱私還能兼具安全？",
+        "answer_9": "Yivi 的任務是要讓人們可以重新掌控他們在網路上的個資。您儲存什麼資料？您分享什麼資料？您與誰分享這些資料？Yivi 讓您可以自己決定。有了我們的程式，您可以決定其他人可以看到您的哪些資料。您可以從手機上將這些資料分享給要求方，其他人不會參與這個過程，就連 Yivi 也不會。\n\n所有資料都安全地存放在您的手機上，有加密以及 PIN 碼保護。您的個資不會被放到集中式資料或雲端硬碟上。手機丟了？別擔心。您可以遠端封鎖您的 Yivi 程式，預防他人在您不知情之下使用您的資料。\n\n載入 Yivi 的資料都有資料供應者的數位簽名，以此證明其效力。這代表要求方可以信賴您提供的資料是真實的。",
+        "question_10": "為什麼 Yivi 程式中的資料有效期限制？",
+        "answer_10": "資料供應人可以決定資料的效期，所以您的資料可以到期。資料到期時，Yivi 程式會發出警告。您的資料的效期長久取決於資料的類型。您的姓名與生日效期為 5 年，地址則只有 1 年。您可以隨時重新整理更新這些資料。舉例來說，您可以在 18 歲生日後重新整理更新您的年紀，Yivi 就會顯示您年紀已滿 18 歲。 ",
+        "question_11": "Yivi，隱私且安全",
+        "answer_11": "Yivi 程式被開發成只有您可以看見並使用您的個人資料。您的個人資料僅儲存在您的手機裡，沒有在其他地方。我們不會將您的資料儲存在雲端上。\n\nYivi 程式是設計用來讓需要知道您是誰的網站或商店，可以（以加密形式）檢查您揭露的資料是否真實。\n\nYivi 程式將您的資料直接從您的手機揭露給網站知道。沒有其他人可以查看您在那裡表明了什麼身分。即使是 Yivi 背後的組織也不可以。\n\n使用 Yivi 時，即表示您同意 [隱私權政策](https://www.yivi.app/en/privacy]。",
+        "send": "您還有其他問題嗎？請傳送電子郵件。您可能需要幾天時間才能收到回覆。",
+        "security_and_privacy": "安全且隱私"
     },
-    "detail": {
-      "title": ""
+    "home": {
+        "nav_bar": {
+            "home": "首頁",
+            "data": "資料",
+            "activity": "活動",
+            "more": "更多",
+            "scan_qr": "掃描 QR 代碼"
+        }
     },
-    "add": {
-      "title": "",
-      "choose": "",
-      "details": {
-        "title": "",
-        "purpose_question": "",
-        "content_question": "",
-        "howto_question": "",
-        "back_button": "",
-        "get_button": "",
-        "disclosure_info_markdown": "",
-        "obtain": ""
-      }
+    "home_tab": {
+        "title": "身份錢包",
+        "recent_activity": "近期活動",
+        "view_more": "瀏覽更多",
+        "action_card": {
+            "fetch": {
+                "title": "獲得我的個人資料",
+                "subtitle": "方便您需要時分享"
+            }
+        }
     },
-    "category_other": "",
-    "category_personal": ""
-  },
-  "disclosure": {
-    "title": "",
-    "disclosure_header": "",
-    "disclosure_call_header": "",
-    "signing_header": "",
-    "signing_call_header": "",
-    "unsatisfiable_header": "",
-    "issuer": "",
-    "logo_semantic": "",
-    "choices": "",
-    "next": "",
-    "previous": "",
-    "not_present": "",
-    "not_present_have_other": "",
-    "you_have": "",
-    "requested_for": "",
-    "card_count": "",
-    "among_others": "",
-    "add_additional": "",
-    "expired": "",
-    "revoked": "",
-    "not_revokable": "",
-    "obtain": "",
-    "refresh": "",
-    "nothing_selected": "",
-    "redirect": "",
-    "feedback": {
-      "header": {
-        "success": "",
-        "canceled": "",
-        "not_satisfiable": ""
-      },
-      "text": {
-        "success": "",
-        "success_signature": "",
-        "canceled": "",
-        "canceled_signature": "",
-        "not_satisfiable": "",
-        "not_satisfiable_signature": ""
-      }
-    }
-  },
-  "disclosure_permission": {
-    "title": "",
-    "next": "",
-    "change_choice": "",
-    "choose": "",
-    "obtain_new": "",
-    "next_step": "",
-    "obtain_data": "",
-    "close": "",
-    "optional_data": "",
-    "add_optional_data": "",
-    "no_data_selected": "",
-    "introduction": {
-      "title": "",
-      "header": "",
-      "explanation": "",
-      "continue": ""
+    "issuance": {
+        "title": "新增資料",
+        "description": "您想要新增此資料到您的 Yivi 程式嗎？",
+        "add": "新增資料",
+        "cancel": "取消",
+        "success_feedback": {
+            "header": "成功",
+            "text": "資料已成功新增至 Yivi"
+        }
     },
     "issue_wizard": {
-      "title": "",
-      "explanation_incomplete": "",
-      "explanation_complete": ""
-    },
-    "previously_added": {
-      "title": "",
-      "explanation": ""
-    },
-    "overview": {
-      "title": "",
-      "sign": "",
-      "explanation": "",
-      "confirm": "",
-      "confirm_sign": ""
-    },
-    "confirm_dialog": {
-      "title": "",
-      "title_signature": "",
-      "explanation": "",
-      "explanation_signature": "",
-      "confirm": "",
-      "confirm_signature": "",
-      "decline": "",
-      "decline_signature": ""
-    },
-    "confirm_close_dialog": {
-      "title": "",
-      "explanation": "",
-      "confirm": "",
-      "decline": ""
-    },
-    "wrong_credentials_added": {
-      "title": "",
-      "explanation": "",
-      "dismiss_action": ""
-    },
-    "call": {
-      "title": "",
-      "disclosure_explanation": "",
-      "disclosure_success": "",
-      "explanation_header_ios": "",
-      "explanation_ios": "",
-      "explanation_header_android": "",
-      "explanation_android": "",
-      "extra_explanation_header_android": "",
-      "extra_explanation_android": ""
-    }
-  },
-  "enrollment": {
-    "introduction": {
-      "step_1": {
-        "title": "",
-        "explanation": ""
-      },
-      "step_2": {
-        "title": "",
-        "explanation": ""
-      },
-      "step_3": {
-        "title": "",
-        "explanation": ""
-      }
-    },
-    "confirm_pin": {
-      "instruction": ""
-    },
-    "email": {
-      "provide": {
-        "title": "",
-        "header": "",
-        "explanation": "",
-        "input": {
-          "label": "",
-          "hint": "",
-          "invalid": ""
-        },
-        "confirm_skip_dialog": {
-          "title": "",
-          "explanation": "",
-          "decline": ""
+        "back": "取消",
+        "done": "確定",
+        "add": "新增",
+        "add_cards": "新增卡片",
+        "add_credential": "新增 {credential}",
+        "success": {
+            "header": "成功",
+            "content": "您已成功完成所有步驟"
         }
-      },
-      "confirm": {
-        "title": "",
-        "header": "",
-        "explanation": "",
-        "explanation_extra_markdown": ""
-      }
     },
-    "terms_and_conditions": {
-      "title": "",
-      "explanation": "",
-      "point_1": "",
-      "point_2": "",
-      "point_3": "",
-      "accept_markdown": ""
+    "more_tab": {
+        "app_management": "應用程式管理",
+        "settings": "設定",
+        "faq": "常見問題",
+        "debugging": "除錯",
+        "contact": "聯絡我們",
+        "share": "分享 Yivi",
+        "share_text": "看一下 Yivi 程式：https://yivi.app",
+        "website": "Yivi 網站",
+        "meet_up": "Yivi 聚會",
+        "need_help": "需要協助嗎？",
+        "know_more": "更多資訊",
+        "stay_informed": "持續了解狀況並參與討論",
+        "slogan": "每個人都值得有隱私",
+        "meetups": "Yivi 聚會",
+        "meetups_link": "https://www.yivi.app/en/yivi-meetups",
+        "twitter": "@YiviApp",
+        "twitter_link": "https://twitter.com/yiviapp",
+        "github": "GitHub",
+        "github_link": "https://github.com/privacybydesign",
+        "version": "版本 {version}",
+        "developer_mode_enabled": "已啟用開發者模式",
+        "developer_mode_already_enabled": "已啟用開發者模式",
+        "irma_website": "Yivi 網站",
+        "irma_website_link": "https://www.yivi.app/en",
+        "privacy_policy": "Yivi 隱私權政策",
+        "privacy_policy_link": "https://www.yivi.app/en/privacy",
+        "app_id": "程式 ID {id}",
+        "log_out": "登出"
     },
-    "error_reporting": {
-      "accept": {
-        "share_errors": "",
-        "with_yivi": ""
-      },
-      "dialog": {
-        "title": "",
-        "explanation": ""
-      }
+    "pin": {
+        "subtitle": "輸入您的 PIN 碼",
+        "button_forgot": "我忘記我的 PIN 碼",
+        "button_block": "封鎖 Yivi"
     },
-    "submit": {
-      "title": "",
-      "progress_enrollment": ""
+    "pin_accessibility": {
+        "show_pin": "顯示 PIN 碼",
+        "hide_pin": "隱藏 PIN 碼",
+        "backspace": "倒退",
+        "empty_pin_input": "未輸入 PIN 碼",
+        "digits_entered-1": "已輸入 {digits} 位數",
+        "digits_entered-2": "已輸入 {digits} 位數"
+    },
+    "pin_common": {
+        "blocked_for": "已封鎖登入",
+        "second": {
+            "time-0": "{time} 秒",
+            "time-1": "{time} 秒",
+            "time-2": "{time} 秒"
+        },
+        "minute": {
+            "time-0": "{time} 分鐘",
+            "time-1": "{time} 分鐘",
+            "time-2": "{time} 分鐘"
+        },
+        "hour": {
+            "time-0": "{time} 小時",
+            "time-1": "{time} 小時",
+            "time-2": "{time} 小時"
+        },
+        "day": {
+            "time-0": "{time} 天",
+            "time-1": "{time} 天",
+            "time-2": "{time} 天"
+        },
+        "invalid_title": "PIN 碼錯誤",
+        "invalid_pin": {
+            "attempts-0": "此 PIN 碼錯誤。在 Yivi 程式暫時封鎖前，您還有 {attemps} 次機會嘗試。",
+            "attempts-1": "此 PIN 碼錯誤。在 Yivi 程式暫時封鎖前，您還有 {attemps} 次機會嘗試。",
+            "attempts-2": "此 PIN 碼錯誤。在 Yivi 程式暫時封鎖前，您還有 {attemps} 次機會嘗試。"
+        },
+        "invalid_close": "再試一次",
+        "blocked_title": "程式已封鎖",
+        "blocked_pin": "您的程式已被封鎖 {blocked}。請稍後再試。",
+        "blocked_close": "再試一次",
+        "done": "繼續",
+        "view": "顯示 PIN 碼",
+        "hide": "隱藏 PIN 碼"
+    },
+    "qr_scanner": {
+        "title": "掃描 QR 圖碼",
+        "instruction": {
+            "title": "開始掃描",
+            "message": "將您行動裝置的相機對準 Yivi 的 QR 圖碼",
+            "semantic": "開始掃描！請將您行動裝置的相機對準 Yivi 的 QR 圖碼。"
+        },
+        "success": {
+            "title": "成功",
+            "message": "已掃描 QR 圖碼",
+            "semantic": "成功！已掃描 QR 圖碼。"
+        },
+        "error": {
+            "title": "抱歉",
+            "message": "這不是 Yivi QR 圖碼",
+            "semantic": "抱歉！這不是 Yivi QR 圖碼。"
+        },
+        "permission_dialog": {
+            "title": "開啟相機",
+            "content": "授予 Yivi 您相機的使用權限。請前往「設定」來授予權限。",
+            "settings": "設定"
+        }
+    },
+    "reset_pin": {
+        "title": "忘記 PIN 碼",
+        "header": "忘記您的 PIN 碼？",
+        "explanation": "很抱歉，Yivi 組織並沒有您 PIN 碼的複本。若您想要繼續使用 Yivi，您必須輸入新 PIN 碼並且重新載入所有資料。",
+        "reset": "重新開始"
+    },
+    "rooted_warning": {
+        "title": "裝置不安全",
+        "explanation": "您裝置上的作業系統似乎被修改（Root/越獄）過，因此無法保證您資料的安全性。",
+        "accept_risk": "我願意接受風險"
+    },
+    "secure_pin": {
+        "info_button": "PIN 碼可能不安全",
+        "title": "選擇 PIN 碼",
+        "subtitle": "安全的 PIN 碼具備以下特性：",
+        "rules": {
+            "contains_3_unique": "包含至少 3 個不重複數字",
+            "must_not_asc_or_desc": "不得有遞增或遞減的數字排列，像是 12345",
+            "not_abcab_nor_abcba": "不得包含 abcba 與 abcab 的數字排列，像是 12312、12321 與 13331",
+            "must_contain_valid_subset": "必須包含連續 5 個符合上述規定的數字"
+        }
+    },
+    "session": {
+        "navigation_bar": {
+            "more": "更多",
+            "yes": "是",
+            "no": "否",
+            "back": "返回",
+            "cancel": "取消"
+        },
+        "pairing": {
+            "title": "額外安全性檢查",
+            "instruction": "請在網站上輸入以下代碼，提升安全性。"
+        },
+        "unknown_session_type": {
+            "title": "已取消",
+            "explanation": "程式不支援您啟動的 Yivi 工作階段。"
+        }
+    },
+    "session_pin": {
+        "subtitle": "輸入您的 PIN 碼"
+    },
+    "settings": {
+        "title": "設定",
+        "start_qr": "啟動時開啟 QR 圖碼掃描功能",
+        "start_qr_explanation": "啟動後自動開啟 QR 圖碼掃描功能",
+        "report_errors": "錯誤與程式健康報告",
+        "report_errors_explanation": "啟用「錯誤與程式健康報告」，您可以協助我們改善使用者體驗。",
+        "enable_screenshots": "啟用螢幕擷圖",
+        "enable_screenshots_explanation": "啟用後，程式不會在程式切換器中以模糊顯示。",
+        "developer_mode": "開發者模式",
+        "other": "其他",
+        "language": "語言",
+        "use_system_language": "使用系統語言",
+        "change_pin": "變更 PIN 碼",
+        "delete": "刪除資料",
+        "confirm_delete_dialog": {
+            "title": "刪除資料",
+            "explanation": "若您繼續，所有資料將會從您的 Yivi 程式中刪除。若您想要繼續使用 Yivi，您必須先重新載入資料。",
+            "confirm": "是的，全部刪除",
+            "deny": "取消"
+        }
+    },
+    "ui": {
+        "loading": "正在載入…",
+        "step_of_steps": "{n} 步驟的第 {i} 步",
+        "step": "步驟",
+        "done": "完成",
+        "next": "下一步",
+        "previous": "上一步",
+        "cancel": "取消",
+        "confirm": "確認",
+        "delete": "刪除",
+        "skip": "略過",
+        "continue": "繼續",
+        "retry": "再試一次",
+        "error": "出了點問題",
+        "end_of_list": "您已經到達清單尾端",
+        "unknown": "未知",
+        "go_back": "返回"
+    },
+    "update": {
+        "title": "有可用更新",
+        "explanation": "若要繼續使用 Yivi 程式，您必須下載最新版本。",
+        "update_app": "更新程式"
+    },
+    "name_changed": {
+        "title": "您記得我們嗎？",
+        "header": "IRMA 有新的名稱與外觀：Yivi",
+        "explanation": "骨子裡沒有改變，您還是可以用舊 PIN 碼登入。"
+    },
+    "notifications": {
+        "credential_status": {
+            "revoked": {
+                "title": "資料已被撤銷",
+                "message": "{issuerName} 已撤銷此資料：{credentialName}"
+            },
+            "expired": {
+                "title": "資料已經過期",
+                "message": "此資料已經過期：{credentialName}"
+            },
+            "expiring_soon": {
+                "title": "資料即將過期",
+                "message": "此資料即將過期：{credentialName}"
+            }
+        }
     }
-  },
-  "error": {
-    "title": "",
-    "blocked_title": "",
-    "button_ok": "",
-    "button_send_to_irma": "",
-    "button_show_error": "",
-    "button_retry": "",
-    "button_back": "",
-    "button_reset": "",
-    "details_title": "",
-    "report": "",
-    "types": {
-      "general": "",
-      "blocked": "",
-      "expired": "",
-      "pairing_rejected": "",
-      "no_internet": ""
-    }
-  },
-  "help": {
-    "about_irma": "",
-    "ask": "",
-    "contact": "",
-    "device": "",
-    "email": "",
-    "faq": "",
-    "login": "",
-    "mail_error": "",
-    "mail_error_button": "",
-    "mail_error_title": "",
-    "mail_subject": "",
-    "question_1": "",
-    "answer_1_markdown": "",
-    "question_2": "",
-    "answer_2": "",
-    "question_3": "",
-    "answer_3_markdown": "",
-    "question_4": "",
-    "answer_4": {
-      "step_1": "",
-      "step_2": "",
-      "step_3": "",
-      "step_4": ""
-    },
-    "question_5": "",
-    "answer_5": {
-      "step_1": "",
-      "step_2": "",
-      "step_3": "",
-      "step_4": "",
-      "step_5": ""
-    },
-    "question_6": "",
-    "answer_6_markdown": "",
-    "question_7": "",
-    "answer_7": "",
-    "question_8": "",
-    "answer_8": "",
-    "question_9": "",
-    "answer_9": "",
-    "question_10": "",
-    "answer_10": "",
-    "question_11": "",
-    "answer_11": "",
-    "send": "",
-    "security_and_privacy": ""
-  },
-  "home": {
-    "nav_bar": {
-      "home": "",
-      "data": "",
-      "activity": "",
-      "more": "",
-      "scan_qr": ""
-    }
-  },
-  "home_tab": {
-    "title": "",
-    "recent_activity": "",
-    "view_more": "",
-    "action_card": {
-      "fetch": {
-        "title": "",
-        "subtitle": ""
-      }
-    }
-  },
-  "issuance": {
-    "title": "",
-    "description": "",
-    "add": "",
-    "cancel": "",
-    "success_feedback": {
-      "header": "",
-      "text": ""
-    }
-  },
-  "issue_wizard": {
-    "back": "",
-    "done": "",
-    "add": "",
-    "add_cards": "",
-    "add_credential": "",
-    "success": {
-      "header": "",
-      "content": ""
-    }
-  },
-  "more_tab": {
-    "app_management": "",
-    "settings": "",
-    "faq": "",
-    "debugging": "",
-    "contact": "",
-    "share": "",
-    "share_text": "",
-    "website": "",
-    "meet_up": "",
-    "need_help": "",
-    "know_more": "",
-    "stay_informed": "",
-    "slogan": "",
-    "meetups": "",
-    "meetups_link": "",
-    "twitter": "",
-    "twitter_link": "",
-    "github": "",
-    "github_link": "",
-    "version": "",
-    "developer_mode_enabled": "",
-    "developer_mode_already_enabled": "",
-    "irma_website": "",
-    "irma_website_link": "",
-    "privacy_policy": "",
-    "privacy_policy_link": "",
-    "app_id": "",
-    "log_out": ""
-  },
-  "pin": {
-    "subtitle": "",
-    "button_forgot": "",
-    "button_block": ""
-  },
-  "pin_accessibility": {
-    "show_pin": "",
-    "hide_pin": "",
-    "backspace": "",
-    "empty_pin_input": "",
-    "digits_entered-1": "",
-    "digits_entered-2": ""
-  },
-  "pin_common": {
-    "blocked_for": "",
-    "second": {
-      "time-0": "",
-      "time-1": "",
-      "time-2": ""
-    },
-    "minute": {
-      "time-0": "",
-      "time-1": "",
-      "time-2": ""
-    },
-    "hour": {
-      "time-0": "",
-      "time-1": "",
-      "time-2": ""
-    },
-    "day": {
-      "time-0": "",
-      "time-1": "",
-      "time-2": ""
-    },
-    "invalid_title": "",
-    "invalid_pin": {
-      "attempts-0": "",
-      "attempts-1": "",
-      "attempts-2": ""
-    },
-    "invalid_close": "",
-    "blocked_title": "",
-    "blocked_pin": "",
-    "blocked_close": "",
-    "done": "",
-    "view": "",
-    "hide": ""
-  },
-  "qr_scanner": {
-    "title": "",
-    "instruction": {
-      "title": "",
-      "message": "",
-      "semantic": ""
-    },
-    "success": {
-      "title": "",
-      "message": "",
-      "semantic": ""
-    },
-    "error": {
-      "title": "",
-      "message": "",
-      "semantic": ""
-    },
-    "permission_dialog": {
-      "title": "",
-      "content": "",
-      "settings": ""
-    }
-  },
-  "reset_pin": {
-    "title": "",
-    "header": "",
-    "explanation": "",
-    "reset": ""
-  },
-  "rooted_warning": {
-    "title": "",
-    "explanation": "",
-    "accept_risk": ""
-  },
-  "secure_pin": {
-    "info_button": "",
-    "title": "",
-    "subtitle": "",
-    "rules": {
-      "contains_3_unique": "",
-      "must_not_asc_or_desc": "",
-      "not_abcab_nor_abcba": "",
-      "must_contain_valid_subset": ""
-    }
-  },
-  "session": {
-    "navigation_bar": {
-      "more": "",
-      "yes": "",
-      "no": "",
-      "back": "",
-      "cancel": ""
-    },
-    "pairing": {
-      "title": "",
-      "instruction": ""
-    },
-    "unknown_session_type": {
-      "title": "",
-      "explanation": ""
-    }
-  },
-  "session_pin": {
-    "subtitle": ""
-  },
-  "settings": {
-    "title": "",
-    "start_qr": "",
-    "start_qr_explanation": "",
-    "report_errors": "",
-    "report_errors_explanation": "",
-    "enable_screenshots": "",
-    "enable_screenshots_explanation": "",
-    "developer_mode": "",
-    "other": "",
-    "language": "",
-    "use_system_language": "",
-    "change_pin": "",
-    "delete": "",
-    "confirm_delete_dialog": {
-      "title": "",
-      "explanation": "",
-      "confirm": "",
-      "deny": ""
-    }
-  },
-  "ui": {
-    "loading": "",
-    "step_of_steps": "",
-    "step": "",
-    "done": "",
-    "next": "",
-    "previous": "",
-    "cancel": "",
-    "confirm": "",
-    "delete": "",
-    "skip": "",
-    "continue": "",
-    "retry": "",
-    "error": "",
-    "end_of_list": "",
-    "unknown": "",
-    "go_back": ""
-  },
-  "update": {
-    "title": "",
-    "explanation": "",
-    "update_app": ""
-  },
-  "name_changed": {
-    "title": "",
-    "header": "",
-    "explanation": ""
-  },
-  "notifications": {
-    "credential_status": {
-      "revoked": {
-        "title": "",
-        "message": ""
-      },
-      "expired": {
-        "title": "",
-        "message": ""
-      },
-      "expiring_soon": {
-        "title": "",
-        "message": ""
-      }
-    }
-  }
 }
