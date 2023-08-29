@@ -610,6 +610,12 @@
                 "title": "資料即將過期",
                 "message": "此資料即將過期：{credentialName}"
             }
+        },
+        "title": "通知",
+        "empty": "無通知訊息",
+        "bell": {
+            "new_notifications": "通知鈴聲 - 新通知",
+            "no_new_notifications": "通知鈴聲 - 無新通知"
         }
     }
 }
