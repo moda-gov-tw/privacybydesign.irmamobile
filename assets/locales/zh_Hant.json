@@ -67,7 +67,7 @@
             "short": "選擇 5 位數的 PIN 碼"
         },
         "switch_pin_size": {
-            "long": "想要更長的 PIN 碼嗎？",
+            "long": "想用更長的 PIN 碼嗎？",
             "short": "想要較短的 PIN 碼嗎？"
         }
     },
@@ -83,7 +83,7 @@
         "valid_until": "有效期至：{date}",
         "expires_on": "於 {date} 到期",
         "expired_on": "於 {date} 過期",
-        "date_at_time": "{date} 的 {time}",
+        "date_at_time": "{date}的 {time}",
         "issued_by": "發行單位：",
         "options": {
             "title": "選項",
@@ -111,11 +111,11 @@
             "details": {
                 "title": "新增資料",
                 "purpose_question": "我能用這些資料做些什麼？",
-                "content_question": "我該讀取哪個資料？",
+                "content_question": "我會取得哪些資料？",
                 "howto_question": "這是如何運作？",
                 "back_button": "取消",
                 "get_button": "新增",
-                "disclosure_info_markdown": "**請注意：** 您將讀取所有可用資料，但您只會分享請求當中需要的資料。",
+                "disclosure_info_markdown": "**註：** 您會取得所有可用資料，但要使用此資料時，只會分享被請求的資料。",
                 "obtain": "將 {credential} 新增至我的 Yivi 應用程式"
             }
         },
@@ -134,20 +134,20 @@
         "choices": "{choices} 選擇",
         "next": "下個選擇",
         "previous": "上個選擇",
-        "not_present": "這些資料尚未新增至 Yivi。",
+        "not_present": "此資料尚未新增至 Yivi。",
         "not_present_have_other": "要求的資料與您在 Yivi 當中可用的資料不相符。",
         "you_have": "您有：",
         "requested_for": "已請求的：",
-        "card_count": "{i} 項，共 {total} 項",
+        "card_count": "第 {i} 項，共 {total} 項",
         "among_others": "在其他的當中",
-        "add_additional": "想要顯示不同的資訊嗎？新增另外的「{credential}」資料。",
+        "add_additional": "想要分享不同的資訊嗎？新增另外的「{credential}」資料。",
         "expired": "這資料已經過期。",
         "revoked": "這資料已被撤銷。",
         "not_revokable": "這資料必須先重新整理。",
         "obtain": "新增",
         "refresh": "重新整理",
         "nothing_selected": "未選取",
-        "redirect": "您正被重新導回網頁……",
+        "redirect": "正將您導向網頁…",
         "feedback": {
             "header": {
                 "success": "成功",
@@ -193,7 +193,7 @@
         },
         "overview": {
             "title": "分享我的資料",
-            "sign": "這是您正在簽署的訊息：",
+            "sign": "這是您即將簽署的訊息：",
             "explanation": "與 {requestorName} 分享我的資料",
             "confirm": "分享資料",
             "confirm_sign": "簽署並分享"
@@ -226,24 +226,24 @@
             "explanation_header_ios": "選擇下一位通話對象",
             "explanation_ios": "將會彈出視窗，上面有撥打電話的選項。電話號碼會預先填入，接著是連結代號。若您選擇通話，您會聽到幾聲嗶聲，然後接通。",
             "explanation_header_android": "1. 選擇下一個",
-            "explanation_android": "您手機應用程式現在會自動開啟。電話號碼會預先填入，接著是連結代號。",
-            "extra_explanation_header_android": "2. 輕點您電話應用程式的通話按鈕",
+            "explanation_android": "現在會自動開啟您的電話程式。電話號碼會預先填入，接著是連結代號。",
+            "extra_explanation_header_android": "2. 輕點您電話應用程式的撥號按鈕",
             "extra_explanation_android": "您會聽到幾聲嗶聲，然後接通。"
         }
     },
     "enrollment": {
         "introduction": {
             "step_1": {
-                "title": "Yivi 是您數位身分的應用程式",
-                "explanation": "您的本名、出生日期、住址、社會安全碼和其他資料等，全都安全地儲存在您的 Yivi 程式中"
+                "title": "Yivi 是一套可管理數位身分的應用程式",
+                "explanation": "可將您的姓名、生日、住址、社會安全碼和其他資料等，安全地儲存在 Yivi 程式中"
             },
             "step_2": {
-                "title": "有了 Yivi，您就掌握了自己的資料",
+                "title": "您可以透過 Yivi 掌握自己的資料",
                 "explanation": "簡單、安全、快速。您分享的資料與對象都在您掌握之中。"
             },
             "step_3": {
                 "title": "用手機安全操作",
-                "explanation": "只有您可以存取您手機上的資料。其他人都無法取得您的交易紀錄，就連 Yivi 也沒辦法。"
+                "explanation": "只有您自己可以存取手機上的個人資料。其他人（包含 Yivi）都無法取得交易紀錄。"
             }
         },
         "confirm_pin": {
@@ -252,42 +252,42 @@
         "email": {
             "provide": {
                 "title": "新增電子郵件地址",
-                "header": "將您的電子郵件地址與您的 Yivi 程式連結",
-                "explanation": "如果您的手機遺失或被偷走，電子郵件地址讓您可以遠端停用您的 Yivi 程式",
+                "header": "連結您的電子郵件地址與 Yivi 程式",
+                "explanation": "如果您的手機遺失或失竊，可透過電子郵件地址來遠端停用 Yivi 程式",
                 "input": {
                     "label": "電子郵件地址",
                     "hint": "填寫",
-                    "invalid": "無效的電子郵件地址"
+                    "invalid": "電子郵件地址無效"
                 },
                 "confirm_skip_dialog": {
                     "title": "確定嗎？",
-                    "explanation": "新增電子郵件地址將能提高安全性",
+                    "explanation": "新增電子郵件地址可提高安全性",
                     "decline": "輸入電子郵件地址"
                 }
             },
             "confirm": {
                 "title": "確認您的電子郵件地址",
                 "header": "我們的電子郵件已經傳送至：",
-                "explanation": "電子郵件傳送需要一些時間。若您未在收件匣中看到郵件，請檢查您的垃圾郵件資料夾。",
-                "explanation_extra_markdown": "您已收到來自 **noreply@yivi.app** 的電子郵件。請開啟該郵件中的連結，將您的電子郵件與您的 Yivi 程式連結。"
+                "explanation": "電子郵件傳送需要一些時間。若未在收件匣中看到郵件，請檢查垃圾信件匣。",
+                "explanation_extra_markdown": "已透過 **noreply@yivi.app** 寄送電子郵件給您。請開啟該郵件中的連結，連結此信箱與您的 Yivi 程式。"
             }
         },
         "terms_and_conditions": {
             "title": "我們的價值",
-            "explanation": "有了 Yivi，您能重新掌握您的線上資料，並且能保護您的網路隱私。",
+            "explanation": "您可以透過 Yivi 重新掌握自己的線上資料，並且保護網路隱私。",
             "point_1": "您決定要儲存以及分享的資料。",
             "point_2": "您的資料只會安全地儲存在您的手機上，不會儲存在其他地方。",
             "point_3": "沒有人能看到您的資料或交易紀錄，就連 Yivi 也沒辦法！",
-            "accept_markdown": "是，我接受 [條款與條件](https://www.yivi.app/en/terms-and-conditions)"
+            "accept_markdown": "好的，我接受[使用條款](https://www.yivi.app/en/terms-and-conditions)"
         },
         "error_reporting": {
             "accept": {
-                "share_errors": "分享錯誤訊息與程式健康",
-                "with_yivi": "使用 Yivi"
+                "share_errors": "分享錯誤訊息與程式運作報告",
+                "with_yivi": "給 Yivi"
             },
             "dialog": {
-                "title": "錯誤與程式健康報告",
-                "explanation": "透過啟用錯誤報告，您能幫助我們提升使用者體驗。此選項也讓您的應用程式可以定期傳送應用程式健康訊息給我們。當然這一切都不需要存取您的個人資訊或交易紀錄。"
+                "title": "錯誤與程式運作報告",
+                "explanation": "您可以透過啟用錯誤回報功能，幫助我們提升使用者體驗。此選項也讓您的應用程式定期回報應用程式運作狀況。當然，一切回報的資料當中都不含您的個人資訊或交易紀錄。"
             }
         },
         "submit": {
@@ -308,7 +308,7 @@
         "report": "若再次發生這種狀況，請通知 Yivi 團隊。",
         "types": {
             "general": "出了點問題。",
-            "blocked": "您的 IRMA 程式已被遠端封鎖。這可能是由 MyYivi 對您的程式所作，或是您在此裝置上已超過一年未使用 Yivi。若您想要繼續在此裝置上使用 Yivi，您必須重新申請帳號。",
+            "blocked": "您的 Yivi 程式已被遠端封鎖。可能是您透過 MyYivi 封鎖，或是此裝置已超過一年未使用 Yivi。若您想要繼續在此裝置上使用 Yivi，請重新申請帳號。",
             "expired": "工作階段逾期。請重新開始。",
             "pairing_rejected": "工作階段被拒絕。請重新開始。",
             "no_internet": "請確認您的裝置能正常連上網路。"
@@ -327,14 +327,14 @@
         "mail_error_title": "抱歉",
         "mail_subject": "Yivi 程式協助",
         "question_1": "我能用 Yivi 做什麼？",
-        "answer_1_markdown": "Yivi 是一個安全、保護使用者隱私的免費手機程式。Yivi 的功用就如同具備個人資料的電子錢包。您可以使用 Yivi 登入網路服務或是證明您的身份，而且僅分享最低所需的個資。這是因為 Yivi 讓您可以選擇您要儲存與分享的資料以及對象。無論何時，一切都由您掌握。\n\n您不用記住帳戶資訊與冗長的密碼，只需要記住您的 Yivi PIN 碼。不管是在網路上購物或是預約看診，在分享資料時，您只會分享必須的資料，僅此而已。\n\n想要在網路上購票嗎？有了 Yivi，您可以輕鬆證明自己已經超過 18 歲，而且不用分享其他個資，讓您在過程中可以保護自己隱私。您也可以使用 Yivi 進行數位簽章，使用您的個人屬性當簽名。您可以以市民、醫生或是其他身份來簽署。請參閱目前的 Yivi 概覽，檢視目前正在使用 Yivi 的組織清單。",
+        "answer_1_markdown": "Yivi 是一個安全、保護使用者隱私的免費手機程式。Yivi 的功用就如同具備個人資料的電子錢包。您可以僅分享最低所需的個資就使用 Yivi 登入網路服務或是證明身份。這是因為 Yivi 讓您可以選擇要儲存與分享的資料以及對象。無論何時，一切都由您掌握。\n\n您不用記住帳戶資訊與冗長的密碼，只需要記住 Yivi 的 PIN 碼。不管是在網路上購物或是預約看診，在分享資料時，也只會分享必須的資料，僅此而已。\n\n想要在網路上購票嗎？有了 Yivi，您可以不用分享其他個資就輕鬆證明自己已經超過 18 歲，同時在驗證過程中保護自己的隱私。您還可以使用不同身份，透過 Yivi 進行數位簽章。您可以用市民、醫生或是其他身份來簽署。請參閱目前的 Yivi 概覽，檢視目前正在使用 Yivi 的組織清單。",
         "question_2": "Yivi 為何而生？",
-        "answer_2": "Yivi 的任務是要讓人們可以重新掌控他們在網路上的個資。您儲存什麼資料？您分享什麼資料？您與誰分享這些資料？Yivi 讓您可以自己決定。有了我們的程式，您可以決定其他人可以看到您的哪些資料。您可以從手機上將這些資料分享給請求方，其他人不會參與這個過程，就連 Yivi 也不會。\n\n所有資料都安全地存放在您的手機上，有加密以及 PIN 碼保護。您的個資不會被放到集中式資料或雲端硬碟上。手機丟了？別擔心。您可以遠端封鎖您的 Yivi 程式，預防他人在您不知情之下使用您的資料。\n\n販售您的個資永遠都不會是我們的獲利模式。Yivi 依舊是免費軟體，這背後有什麼蹊蹺嗎？當然沒有！只有使用 Yivi 的組織需要付費，讓您可以繼續免費使用 Yivi。\n",
+        "answer_2": "Yivi 的任務是要讓人們可以重新掌控他們在網路上的個資。Yivi 讓您可以自己決定要儲存什麼資料？分享什麼資料？與誰分享這些資料？透過此程式，您可以決定其他人可以看到您的哪些資料。要分享給請求方的資料會直接從手機傳輸出去，不經由其他人，連 Yivi 也不會。\n\n所有資料都經加密後安全地存放在您的手機上，並且透過 PIN 碼保護。您的個資不會被放到集中式資料庫或雲端服務中。手機丟了？別擔心。還可以遠端封鎖 Yivi 程式，預防他人在您不知情之下使用您的資料。\n\n販賣個資永遠都不會是我們的獲利模式。Yivi 依舊是免費軟體，這背後有什麼蹊蹺嗎？當然沒有！只有使用 Yivi 的組織需要付費，讓您可以繼續免費使用 Yivi。\n",
         "question_3": "誰是 Yivi 程式的幕後推手？",
         "answer_3_markdown": "SIDN 是在幕後推動 Yivi 的非營利組織。這個名字對您可能有點陌生，但您可能知道網址結尾是「.nl」的網站。每次您造訪這些網站，SIDN 確保您會連接至正確的網站。SIDN 這樣做已經超過 25 年，每天大概 20 億次。也因為如此豐富的經驗，他們也能確保 Yivi 隨時隨地都能順暢與安全運作。",
         "question_4": "如何使用 Yivi 登入行動版網站？",
         "answer_4": {
-            "step_1": "在您的行動裝置上開啟網站，並選取 Yivi 登入。",
+            "step_1": "在您的行動裝置上開啟網站，並選取「使用 Yivi 登入」。",
             "step_2": "Yivi 程式自動開啟。\n接下來輸入您的 PIN 碼。",
             "step_3": "同意（或不同意）揭露您的個人資料。",
             "step_4": "Yivi 會顯示您已經登入。\n您現在可以使用網站了。"
@@ -343,7 +343,7 @@
         "answer_5": {
             "step_1": "在您的電腦上開啟網站，並選取 Yivi 登入。",
             "step_2": "在您的行動裝置裡開啟 Yivi 程式，並輸入您的 PIN 碼。",
-            "step_3": "在 Yivi 中開啟 QR 碼掃描器。掃描電腦畫面中的 QR 碼。",
+            "step_3": "開啟 Yivi 的 QR Code 掃描器。掃描電腦畫面中的 QR Code。",
             "step_4": "同意（或不同意）揭露您的個人資料。",
             "step_5": "Yivi 會顯示您已經登入。\n您現在可以使用網站了。"
         },
@@ -356,11 +356,11 @@
         "question_9": "是什麼讓 Yivi 便於保有隱私還兼具安全？",
         "answer_9": "Yivi 的任務是要讓人們可以重新掌控他們在網路上的個資。您儲存什麼資料？您分享什麼資料？您與誰分享這些資料？Yivi 讓您可以自己決定。有了我們的程式，您可以決定其他人可以看到您的哪些資料。您可以從手機上將這些資料分享給請求方，其他人不會參與這個過程，就連 Yivi 也不會。\n\n所有資料都安全地存放在您的手機上，有加密以及 PIN 碼保護。您的個資不會被放到集中式資料或雲端硬碟上。手機丟了？別擔心。您可以遠端封鎖您的 Yivi 程式，預防他人在您不知情之下使用您的資料。\n\n載入 Yivi 的資料都有資料供應者的數位簽章，以此證明其效力。這代表請求方可以信賴您提供的資料是真實的。",
         "question_10": "為什麼 Yivi 程式中的資料有效期限制？",
-        "answer_10": "資料供應人可以決定資料的效期，所以您的資料可以到期。資料到期時，Yivi 程式會發出警告。您的資料的效期長久取決於資料的類型。您的姓名與生日效期為 5 年，地址則只有 1 年。您可以隨時重新整理這些資料。舉例來說，您可以在 18 歲生日後重新整理您的年紀，Yivi 就會顯示您年紀已滿 18 歲。 ",
-        "question_11": "Yivi，隱私且安全",
-        "answer_11": "Yivi 程式被開發成只有您可以看見並使用您的個人資料。您的個人資料僅儲存在您的手機裡，沒有在其他地方。我們不會將您的資料儲存在雲端上。\n\nYivi 程式是設計用來讓需要知道您是誰的網站或商店，可以（以加密形式）檢查您揭露的資料是否真實。\n\nYivi 程式將您的資料直接從您的手機揭露給網站知道。沒有其他人可以查看您在那裡表明了什麼身分。即使是 Yivi 背後的組織也不可以。\n\n使用 Yivi 時，即表示您同意 [隱私權政策](https://www.yivi.app/en/privacy]。",
+        "answer_10": "資料供應人可以決定資料的效期，所以您的資料可能會失效。資料失效時，Yivi 程式會發出警告。您的資料的有效期限取決於資料類型。您的姓名與生日效期為 5 年，地址則只有 1 年。您可以隨時重新整理這些資料。舉例來說，您可以在 18 歲生日後重新整理您的年紀，Yivi 就會顯示您年紀已滿 18 歲。 ",
+        "question_11": "Yivi，有隱私又安全",
+        "answer_11": "Yivi 程式被開發成只有您可以看見並使用您的個人資料。您的個人資料僅儲存在您的手機裡，沒有在其他地方。我們不會將您的資料儲存在雲端上。\n\nYivi 程式是設計用來讓需要知道您是誰的網站或商店，可以（以加密形式）檢查您揭露的資料是否真實。\n\nYivi 程式將您的資料直接從您的手機揭露給網站知道。沒有其他人可以查看您在那裡表明了什麼身分。即使是 Yivi 背後的組織也不可以。\n\n使用 Yivi 時，即表示您同意[隱私權政策](https://www.yivi.app/en/privacy]。",
         "send": "您還有其他問題嗎？請傳送電子郵件。您可能需要幾天時間才能收到回覆。",
-        "security_and_privacy": "安全且隱私"
+        "security_and_privacy": "安全又有隱私"
     },
     "home": {
         "nav_bar": {
@@ -368,7 +368,7 @@
             "data": "資料",
             "activity": "活動",
             "more": "更多",
-            "scan_qr": "掃描 QR 代碼"
+            "scan_qr": "掃描 QR Code"
         }
     },
     "home_tab": {
@@ -410,12 +410,12 @@
         "debugging": "除錯",
         "contact": "聯絡我們",
         "share": "分享 Yivi",
-        "share_text": "看一下 Yivi 程式：https://yivi.app",
+        "share_text": "快來試用 Yivi 程式：https://yivi.app",
         "website": "Yivi 網站",
         "meet_up": "Yivi 聚會",
         "need_help": "需要協助嗎？",
         "know_more": "更多資訊",
-        "stay_informed": "持續了解狀況並參與討論",
+        "stay_informed": "獲得最新資訊並參與討論",
         "slogan": "每個人都值得有隱私",
         "meetups": "Yivi 聚會",
         "meetups_link": "https://www.yivi.app/en/yivi-meetups",
@@ -428,7 +428,7 @@
         "developer_mode_already_enabled": "已啟用開發者模式",
         "irma_website": "Yivi 網站",
         "irma_website_link": "https://www.yivi.app/en",
-        "privacy_policy": "Yivi 隱私權政策",
+        "privacy_policy": "Yivi 的隱私權政策",
         "privacy_policy_link": "https://www.yivi.app/en/privacy",
         "app_id": "程式 ID {id}",
         "log_out": "登出"
@@ -483,21 +483,21 @@
         "hide": "隱藏 PIN 碼"
     },
     "qr_scanner": {
-        "title": "掃描 QR 碼",
+        "title": "掃描 QR Code",
         "instruction": {
             "title": "開始掃描",
-            "message": "將您行動裝置的相機對準 Yivi 的 QR 碼",
-            "semantic": "開始掃描！請將您行動裝置的相機對準 Yivi 的 QR 碼。"
+            "message": "將您行動裝置的相機對準 Yivi 的 QR Code",
+            "semantic": "開始掃描！請將您行動裝置的相機對準 Yivi 的 QR Code。"
         },
         "success": {
             "title": "成功",
-            "message": "已掃描 QR 碼",
-            "semantic": "成功！已掃描 QR 碼。"
+            "message": "已掃描 QR Code",
+            "semantic": "成功！已掃描 QR Code。"
         },
         "error": {
             "title": "抱歉",
-            "message": "這不是 Yivi QR 碼",
-            "semantic": "抱歉！這不是 Yivi QR 碼。"
+            "message": "這不是 Yivi 的 QR Code",
+            "semantic": "抱歉！這不是 Yivi 的 QR Code。"
         },
         "permission_dialog": {
             "title": "開啟相機",
@@ -508,13 +508,13 @@
     "reset_pin": {
         "title": "忘記 PIN 碼",
         "header": "忘記您的 PIN 碼？",
-        "explanation": "很抱歉，Yivi 組織並沒有您 PIN 碼的複本。若您想要繼續使用 Yivi，您必須輸入新 PIN 碼並且重新載入所有資料。",
+        "explanation": "很抱歉，Yivi 組織並不會儲存您的 PIN 碼。若您想要繼續使用 Yivi，需要輸入新 PIN 碼並且重新載入所有資料。",
         "reset": "重新開始"
     },
     "rooted_warning": {
         "title": "裝置不安全",
-        "explanation": "您裝置上的作業系統似乎被修改（破解/越獄）過，因此無法保證您資料的安全性。",
-        "accept_risk": "我願意接受風險"
+        "explanation": "您裝置上的作業系統似乎被修改（破解/越獄）過，無法保證資料安全性。",
+        "accept_risk": "我接受風險"
     },
     "secure_pin": {
         "info_button": "PIN 碼可能不安全",
@@ -523,7 +523,7 @@
         "rules": {
             "contains_3_unique": "包含至少 3 個不重複數字",
             "must_not_asc_or_desc": "不得有遞增或遞減的數字排列，像是 12345",
-            "not_abcab_nor_abcba": "不得包含 abcba 與 abcab 的數字排列，像是 12312、12321 與 13331",
+            "not_abcab_nor_abcba": "不得包含 abcba 與 abcab 的數字排列，像是 12312、12321 或 13331",
             "must_contain_valid_subset": "必須包含連續 5 個符合上述規定的數字"
         }
     },
@@ -549,10 +549,10 @@
     },
     "settings": {
         "title": "設定",
-        "start_qr": "啟動時開啟 QR 碼掃描功能",
-        "start_qr_explanation": "啟動後自動開啟 QR 碼掃描功能",
-        "report_errors": "錯誤與程式健康報告",
-        "report_errors_explanation": "啟用「錯誤與程式健康報告」，您可以協助我們改善使用者體驗。",
+        "start_qr": "自動開啟 QR Code 掃描器",
+        "start_qr_explanation": "啟動程式後自動開啟 QR Code 掃描器",
+        "report_errors": "回報錯誤與程式運作情況",
+        "report_errors_explanation": "您可以透過啟用「回報錯誤與程式運作情況」，幫助我們提升使用者體驗。",
         "enable_screenshots": "啟用螢幕擷圖",
         "enable_screenshots_explanation": "啟用後，程式不會在程式切換器中以模糊顯示。",
         "developer_mode": "開發者模式",
@@ -563,14 +563,14 @@
         "delete": "刪除資料",
         "confirm_delete_dialog": {
             "title": "刪除資料",
-            "explanation": "若您繼續，所有資料將會從您的 Yivi 程式中刪除。若您想要繼續使用 Yivi，您必須先重新載入資料。",
+            "explanation": "若繼續，將會清除您的 Yivi 程式當中的所有資料。若之後要繼續使用 Yivi，必須重新載入資料。",
             "confirm": "是的，全部刪除",
             "deny": "取消"
         }
     },
     "ui": {
-        "loading": "正在載入……",
-        "step_of_steps": "{n} 步驟的第 {i} 步",
+        "loading": "正在載入…",
+        "step_of_steps": "第 {i} 步，共 {n} 步",
         "step": "步驟",
         "done": "完成",
         "next": "下一步",
