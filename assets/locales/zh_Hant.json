@@ -582,7 +582,7 @@
         "continue": "繼續",
         "retry": "再試一次",
         "error": "出了點問題",
-        "end_of_list": "您已經到達清單末端",
+        "end_of_list": "這裡是清單末端",
         "unknown": "未知",
         "go_back": "返回"
     },
