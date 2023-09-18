@@ -16,6 +16,11 @@ extension LanguageName on Locale {
 
       case 'en':
         return 'English';
+      case 'zh':
+        if (scriptCode == 'Hant') {
+          return '繁體中文';
+        }
+        return '中文';
     }
 
     throw UnsupportedError('''

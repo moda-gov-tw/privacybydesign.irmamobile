@@ -81,6 +81,8 @@ class AppState extends State<App> with WidgetsBindingObserver {
     return const [
       Locale('en', 'US'),
       Locale('nl', 'NL'),
+      Locale('zh', 'ZH'),
+      // Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
     ];
   }
 

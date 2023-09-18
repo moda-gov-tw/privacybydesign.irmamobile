@@ -21,7 +21,7 @@
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		A8DCE10928F36478002BFD88 /* RunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DCE10828F36478002BFD88 /* RunnerTests.m */; };
-		D972BBC5D0CE89AB48CE8466 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		D972BBC5D0CE89AB48CE8466 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		E2097A7FA54E2A1FE2B4244D /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C230D6118D56895BA265A94 /* Pods_Runner.framework */; };
 /* End PBXBuildFile section */
 
@@ -90,7 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A5D74023A24AD90030BD8B /* Irmagobridge.xcframework in Frameworks */,
-				D972BBC5D0CE89AB48CE8466 /* BuildFile in Frameworks */,
+				D972BBC5D0CE89AB48CE8466 /* (null) in Frameworks */,
 				E2097A7FA54E2A1FE2B4244D /* Pods_Runner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,7 +249,7 @@
 		97C146E61CF9000F007C117D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "The Chromium Authors";
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
@@ -392,6 +392,7 @@
 				"${BUILT_PRODUCTS_DIR}/IOSSecuritySuite/IOSSecuritySuite.framework",
 				"${BUILT_PRODUCTS_DIR}/MTBBarcodeScanner/MTBBarcodeScanner.framework",
 				"${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework",
+				"${BUILT_PRODUCTS_DIR}/SentryPrivate/SentryPrivate.framework",
 				"${BUILT_PRODUCTS_DIR}/flutter_jailbreak_detection/flutter_jailbreak_detection.framework",
 				"${BUILT_PRODUCTS_DIR}/flutter_native_splash/flutter_native_splash.framework",
 				"${BUILT_PRODUCTS_DIR}/flutter_privacy_screen/flutter_privacy_screen.framework",
@@ -410,6 +411,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IOSSecuritySuite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MTBBarcodeScanner.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sentry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SentryPrivate.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_jailbreak_detection.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_native_splash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flutter_privacy_screen.framework",
@@ -540,10 +542,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = T5VXGLDWLZ;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 48KR222JPM;
 				ENABLE_BITCODE = NO;
+				FLUTTER_BUILD_NUMBER = 23091504;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -560,9 +565,10 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = foundation.privacybydesign.irmamob.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.steps.yivi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Local development profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "yivi profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -687,10 +693,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = T5VXGLDWLZ;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 48KR222JPM;
 				ENABLE_BITCODE = NO;
+				FLUTTER_BUILD_NUMBER = 23091504;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -707,9 +716,10 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = foundation.privacybydesign.irmamob.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.steps.yivi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Local development profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "yivi profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
@@ -728,10 +738,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Runner.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = T5VXGLDWLZ;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 48KR222JPM;
 				ENABLE_BITCODE = NO;
+				FLUTTER_BUILD_NUMBER = 23091504;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
@@ -748,9 +761,10 @@
 					"$(PROJECT_DIR)/Flutter",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = foundation.privacybydesign.irmamob.alpha;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.steps.yivi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Local development profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "yivi profile";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
