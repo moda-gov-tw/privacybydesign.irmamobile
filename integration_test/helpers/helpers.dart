@@ -7,10 +7,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:irmamobile/app.dart';
-
 import 'package:irmamobile/main.dart';
 import 'package:irmamobile/src/data/irma_repository.dart';
 import 'package:irmamobile/src/screens/home/home_tab.dart';
+import 'package:irmamobile/src/screens/notifications/bloc/notifications_bloc.dart';
+import 'package:irmamobile/src/screens/notifications/widgets/notification_card.dart';
 import 'package:irmamobile/src/screens/session/widgets/issuance_permission.dart';
 import 'package:irmamobile/src/widgets/credential_card/irma_credential_card.dart';
 import 'package:irmamobile/src/widgets/credential_card/irma_credential_card_attribute_list.dart';
@@ -36,12 +37,18 @@ Future<void> enterPin(WidgetTester tester, String pin) async {
       find.byKey(Key('number_pad_key_${digit.toString()}')),
     );
   }
-  await tester.pumpAndSettle(const Duration(seconds: 1));
+  await tester.pumpAndSettle(const Duration(milliseconds: 1500));
 }
 
-Future<void> pumpIrmaApp(WidgetTester tester, IrmaRepository repo, [Locale? defaultLanguage]) async {
+Future<void> pumpIrmaApp(
+  WidgetTester tester,
+  IrmaRepository repo, [
+  Locale? defaultLanguage,
+  NotificationsBloc? notificationsBloc,
+]) async {
   await tester.pumpWidgetAndSettle(IrmaApp(
     repository: repo,
+    notificationsBloc: notificationsBloc ?? NotificationsBloc(repo: repo),
     defaultLanguage: defaultLanguage ?? const Locale('en', 'EN'),
   ));
 
@@ -54,8 +61,9 @@ Future<void> pumpIrmaApp(WidgetTester tester, IrmaRepository repo, [Locale? defa
 }
 
 // Pump a new app and unlock it
-Future<void> pumpAndUnlockApp(WidgetTester tester, IrmaRepository repo, [Locale? locale]) async {
-  await pumpIrmaApp(tester, repo, locale);
+Future<void> pumpAndUnlockApp(WidgetTester tester, IrmaRepository repo,
+    [Locale? locale, NotificationsBloc? notificationsBloc]) async {
+  await pumpIrmaApp(tester, repo, locale, notificationsBloc);
   await unlock(tester);
 }
 
@@ -68,6 +76,7 @@ Future<void> issueCredentials(
   Locale locale = const Locale('en', 'EN'),
   Map<String, String> revocationKeys = const {},
   bool continueOnSecondDevice = true,
+  bool declineOffer = false,
 }) async {
   final groupedAttributes = groupBy<MapEntry<String, String>, String>(
     attributes.entries,
@@ -117,10 +126,12 @@ Future<void> issueCredentials(
     expect(attributeTexts[i * 2 + 1], attributeEntries[i].value);
   }
 
-  var acceptButtonFinder = find.byKey(const Key('bottom_bar_primary'));
-  expect(acceptButtonFinder, findsOneWidget);
+  final buttonFinder = find.byKey(
+    declineOffer ? const Key('bottom_bar_secondary') : const Key('bottom_bar_primary'),
+  );
+  expect(buttonFinder, findsOneWidget);
 
-  await tester.tapAndSettle(acceptButtonFinder);
+  await tester.tapAndSettle(buttonFinder);
 
   await tester.waitUntilDisappeared(issuancePageFinder);
 }
@@ -337,5 +348,43 @@ Future<void> evaluateCredentialCard(
         findsOneWidget,
       );
     }
+  }
+}
+
+Future<void> evaluateNotificationCard(
+  WidgetTester tester,
+  Finder notificationCardFinder, {
+  String? title,
+  String? content,
+  bool? read,
+}) async {
+  expect(notificationCardFinder, findsOneWidget);
+
+  if (title != null) {
+    expect(
+      find.descendant(
+        of: notificationCardFinder,
+        matching: find.text(title),
+      ),
+      findsOneWidget,
+    );
+  }
+
+  if (content != null) {
+    expect(
+      find.descendant(
+        of: notificationCardFinder,
+        matching: find.text(content),
+      ),
+      findsOneWidget,
+    );
+  }
+
+  if (read != null) {
+    final notificationCardWidget = notificationCardFinder.evaluate().single.widget as NotificationCard;
+    expect(
+      notificationCardWidget.notification.read,
+      read,
+    );
   }
 }

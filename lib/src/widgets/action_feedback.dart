@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 
 import '../screens/session/widgets/dynamic_layout.dart';
 import '../screens/session/widgets/session_scaffold.dart';
+import '../screens/session/widgets/success_graphic.dart';
 import '../theme/theme.dart';
 import 'translated_text.dart';
 import 'yivi_themed_button.dart';
@@ -42,14 +43,16 @@ class ActionFeedback extends StatelessWidget {
         appBarTitle: success ? 'disclosure.feedback.header.success' : 'ui.error',
         onDismiss: onDismiss,
         body: DynamicLayout(
-          hero: SvgPicture.asset(
-            success ? 'assets/disclosure/disclosure_success.svg' : 'assets/error/general_error_illustration.svg',
-          ),
+          hero: success
+              ? SuccessGraphic()
+              : SvgPicture.asset(
+                  'assets/error/general_error_illustration.svg',
+                ),
           content: Column(
             children: [
               TranslatedText(
                 titleTranslationKey,
-                style: theme.themeData.textTheme.headline3!.copyWith(
+                style: theme.themeData.textTheme.displaySmall!.copyWith(
                   color: theme.dark,
                 ),
               ),
@@ -59,7 +62,7 @@ class ActionFeedback extends StatelessWidget {
               TranslatedText(
                 explanationTranslationKey,
                 translationParams: explanationTranslationParams,
-                style: theme.themeData.textTheme.bodyText2,
+                style: theme.themeData.textTheme.bodyMedium,
                 textAlign: TextAlign.center,
               ),
             ],
