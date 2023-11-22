@@ -119,6 +119,7 @@
         "obtain": "Add {credential} to my Yivi-app"
       }
     },
+    "category_one": "Other",
     "category_other": "Other",
     "category_personal": "Personal"
   },
@@ -135,6 +136,7 @@
     "next": "next choices",
     "previous": "previous choices",
     "not_present": "This data has not yet been added to Yivi.",
+    "not_present_have_one": "The requested data does not match the data you have available in Yivi.",
     "not_present_have_other": "The requested data does not match the data you have available in Yivi.",
     "you_have": "You have:",
     "requested_for": "This is requested:",
