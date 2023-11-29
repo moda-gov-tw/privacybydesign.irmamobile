@@ -537,7 +537,7 @@
         },
         "pairing": {
             "title": "額外安全性檢查",
-            "instruction": "請在網站上輸入以下代碼，提升安全性。"
+            "instruction": "請在網站上輸入以下驗證碼，提升安全性。"
         },
         "unknown_session_type": {
             "title": "已取消",
@@ -594,7 +594,7 @@
     "name_changed": {
         "title": "您記得我們嗎？",
         "header": "IRMA 有新的名稱與外觀：Yivi",
-        "explanation": "骨子裡沒有改變，您還是可以用舊 PIN 碼登入。"
+        "explanation": "本質上沒有改變，您還是可以用舊 PIN 碼登入。"
     },
     "notifications": {
         "credential_status": {
