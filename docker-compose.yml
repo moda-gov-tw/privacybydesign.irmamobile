@@ -1,0 +1,8 @@
+# For more information: https://laravel.com/docs/sail
+version: '3'
+services:
+  irma:
+    image: ghcr.io/privacybydesign/irma:latest
+    volumes:
+      - './irma_configuration:/data'
+    command: "scheme sign /data/irma-demo/sk.pem /data/pbdf"
