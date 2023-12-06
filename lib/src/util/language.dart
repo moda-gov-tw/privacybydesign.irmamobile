@@ -16,10 +16,15 @@ extension LanguageName on Locale {
 
       case 'en':
         return 'English';
+      case 'zh':
+        if (scriptCode == 'Hant') {
+          return '繁體中文';
+        }
+        return '中文';
     }
 
     throw UnsupportedError('''
-      No language name found for: '${languageCode}'.
+      No language name found for: '$languageCode'.
       Please add the language name to the languageName() extension.
     ''');
   }
